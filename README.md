@@ -53,5 +53,5 @@ Generar carta de bienvenida para los candidatos que pasaron la prueba. Esta cart
 -	:heavy_check_mark: Además de Colombia, su equipo debe considerar información de mínimo tres países diferentes.
 
 ## Diagrama UML:
-[ENLACE]()
+[ENLACE](https://drive.google.com/file/d/1-YjouPRGkLYMIXFjP6IUAnFCsMAkoZb7/view?usp=sharing)
 
