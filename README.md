@@ -1,4 +1,4 @@
-# POOProyecto1_JPC/EC/DG
+# Recruitment_JPC/EC/DG
 
 ### Integrantes : :boy: Juan Paulo Cespedes :adult: Emmanuel Collazos :woman: Daniela Gómez
  
