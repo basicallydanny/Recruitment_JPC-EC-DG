@@ -1,4 +1,4 @@
-# Recruitment_JPC/EC/DG
+# Recruitment_JPC-EC-DG
 
 ### Integrantes : :boy: Juan Paulo Cespedes :adult: Emmanuel Collazos :woman: Daniela Gómez
  
@@ -14,7 +14,7 @@ Este software asiste a personas de talento humano con información y soporte par
 
 ## :speech_balloon: Requisitos
 
-- [ ] **R1**:
+- [x] **R1**:
 Agregar características de los candidatos según su nacionalidad:
 1.	Tipo: cultura expresiva | cultura reservada 
 2.	Estilo de contacto visual: duración e intensidad de los contactos oculares
