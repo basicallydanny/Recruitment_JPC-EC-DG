@@ -1,5 +1,6 @@
-#ifndef CANDIDATO_H
-#define CANDIDATO_H
+
+#ifndef PRUEBA_CANDIDATO_H
+#define PRUEBA_CANDIDATO_H
 
 #include <iostream>
 #include <string>
@@ -9,19 +10,19 @@ using namespace std;
 using std::string;
 
 class Candidato {
-    protected:
-        string nombre;
-        string correo;
-        string linkedIn;
-        string github;
-        string pasaporte;
-        bool genero;
-        Nacionalidad nacionalidad;
-    public:
-        Candidato();
-        Candidato(string nombre, string correo, string linkedIn, string github, string pasaporte, bool genero);
-        Nacionalidad getNacionalidad();
-        setNacionalidad( nacionalidad Nacionalidad );
+protected:
+    string nombre;
+    string correo;
+    string linkedIn;
+    string github;
+    string pasaporte;
+    bool genero;
+    Nacionalidad nacionalidad;
+public:
+    Candidato();
+    Candidato(string nombre, string correo, string linkedIn, string github, string pasaporte, bool genero);
+    Nacionalidad getNacionalidad();
+    setNacionalidad( nacionalidad Nacionalidad );
 };
 
-#endif
+#endif //PRUEBA_CANDIDATO_H
