@@ -20,9 +20,9 @@ protected:
     Nacionalidad nacionalidad;
 public:
     Candidato();
-    Candidato(string nombre, string correo, string linkedIn, string github, string pasaporte, bool genero);
+    Candidato(string nombre, string correo, string linkedIn, string github, string pasaporte, string genero);
     Nacionalidad getNacionalidad();
-    void setNacionalidad( nacionalidad Nacionalidad );
+    void setNacionalidad( Nacionalidad Nacionalidad );
 };
 
 #endif //PRUEBA_CANDIDATO_H

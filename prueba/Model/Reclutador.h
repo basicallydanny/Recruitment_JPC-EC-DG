@@ -5,9 +5,20 @@
 #ifndef PRUEBA_RECLUTADOR_H
 #define PRUEBA_RECLUTADOR_H
 
+#include "Candidato.h"
+#include "Nacionalidad.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <iterator>
 
 class Reclutador {
-
+private:
+    Candidato map<int, Candidato>;
+public:
+    void agendarEntrevistas(int id);
+    void generarGuia(Candidato candidato);
+    void generarCarta(Candidato candidato);
 };
 
 

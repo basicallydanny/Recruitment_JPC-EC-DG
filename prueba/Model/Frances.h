@@ -6,8 +6,14 @@
 #define PRUEBA_FRANCES_H
 
 
-class Frances {
+#include <iostream>
+#include "Nacionalidad.h"
 
+using namespace std;
+
+class Frances : public Nacionalidad {
+public:
+    Frances();
 };
 
 

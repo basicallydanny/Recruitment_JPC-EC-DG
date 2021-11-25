@@ -25,14 +25,14 @@ protected:
 
 public:
     virtual ~Nacionalidad(){};
-    bool getTipoCultura();
+    string getTipoCultura();
     string getContactoVisual();
     string getGestos();
     string getTacto();
     string getRespeto();
     string getGestionTiempo();
     string getEstiloComunicacion();
-    bool getTieneSiesta();
+    string getTieneSiesta();
     string getFestividades();
 };
 
