@@ -1,9 +1,21 @@
 #ifndef RECRUITMENT_JPC_EC_DG_VIEW_H
 #define RECRUITMENT_JPC_EC_DG_VIEW_H
 
-class View {
+#include <iostream>
+#include <stdlib.h>
+#include "Reclutador.h"
 
+using std::cin;
+using std::cout;
+using std::endl;
+using std::string;
+
+class View{
+private:
+    Recltador Jairo;
+public:
+    View();
+    void mostrarMenu();
 };
-
 
 #endif //RECRUITMENT_JPC_EC_DG_VIEW_H
