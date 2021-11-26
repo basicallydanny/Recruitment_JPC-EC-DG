@@ -1,5 +1,5 @@
-#ifndef PRUEBA_CANDIDATO_H
-#define PRUEBA_CANDIDATO_H
+#ifndef CANDIDATO_H
+#define CANDIDATO_H
 
 #include <iostream>
 #include <string>
@@ -17,12 +17,12 @@ protected:
     string pasaporte;
     bool genero;
     Nacionalidad nacionalidad;
+
 public:
     Candidato();
     Candidato(string nombre, string correo, string linkedIn, string github, int pasaporte, bool genero);
     Nacionalidad getNacionalidad();
     void setNacionalidad( Nacionalidad nacionalidad );
-
     string getNombre();
     string getCorreo();
     string getLinkedIn();
@@ -31,4 +31,4 @@ public:
     bool getGenero();
 };
 
-#endif //PRUEBA_CANDIDATO_H
+#endif //CANDIDATO_H
