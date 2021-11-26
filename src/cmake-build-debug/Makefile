@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\prueba
+CMAKE_SOURCE_DIR = C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\prueba\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\prueba\cmake-build-debug\CMakeFiles C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\prueba\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\prueba\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,209 +116,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named prueba
+# Target rules for targets named src
 
 # Build rule for target.
-prueba: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 prueba
-.PHONY : prueba
+src: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src
+.PHONY : src
 
 # fast build rule for target.
-prueba/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/build
-.PHONY : prueba/fast
+src/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/build
+.PHONY : src/fast
 
-Model/Candidato.obj: Model/Candidato.cpp.obj
-.PHONY : Model/Candidato.obj
-
-# target to build an object file
-Model/Candidato.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Candidato.cpp.obj
-.PHONY : Model/Candidato.cpp.obj
-
-Model/Candidato.i: Model/Candidato.cpp.i
-.PHONY : Model/Candidato.i
-
-# target to preprocess a source file
-Model/Candidato.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Candidato.cpp.i
-.PHONY : Model/Candidato.cpp.i
-
-Model/Candidato.s: Model/Candidato.cpp.s
-.PHONY : Model/Candidato.s
-
-# target to generate assembly for a file
-Model/Candidato.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Candidato.cpp.s
-.PHONY : Model/Candidato.cpp.s
-
-Model/Colombiano.obj: Model/Colombiano.cpp.obj
-.PHONY : Model/Colombiano.obj
+main.obj: main.cpp.obj
+.PHONY : main.obj
 
 # target to build an object file
-Model/Colombiano.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Colombiano.cpp.obj
-.PHONY : Model/Colombiano.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-Model/Colombiano.i: Model/Colombiano.cpp.i
-.PHONY : Model/Colombiano.i
-
-# target to preprocess a source file
-Model/Colombiano.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Colombiano.cpp.i
-.PHONY : Model/Colombiano.cpp.i
-
-Model/Colombiano.s: Model/Colombiano.cpp.s
-.PHONY : Model/Colombiano.s
-
-# target to generate assembly for a file
-Model/Colombiano.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Colombiano.cpp.s
-.PHONY : Model/Colombiano.cpp.s
-
-Model/Coreano.obj: Model/Coreano.cpp.obj
-.PHONY : Model/Coreano.obj
-
-# target to build an object file
-Model/Coreano.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Coreano.cpp.obj
-.PHONY : Model/Coreano.cpp.obj
-
-Model/Coreano.i: Model/Coreano.cpp.i
-.PHONY : Model/Coreano.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-Model/Coreano.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Coreano.cpp.i
-.PHONY : Model/Coreano.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-Model/Coreano.s: Model/Coreano.cpp.s
-.PHONY : Model/Coreano.s
-
-# target to generate assembly for a file
-Model/Coreano.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Coreano.cpp.s
-.PHONY : Model/Coreano.cpp.s
-
-Model/Frances.obj: Model/Frances.cpp.obj
-.PHONY : Model/Frances.obj
-
-# target to build an object file
-Model/Frances.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Frances.cpp.obj
-.PHONY : Model/Frances.cpp.obj
-
-Model/Frances.i: Model/Frances.cpp.i
-.PHONY : Model/Frances.i
-
-# target to preprocess a source file
-Model/Frances.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Frances.cpp.i
-.PHONY : Model/Frances.cpp.i
-
-Model/Frances.s: Model/Frances.cpp.s
-.PHONY : Model/Frances.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-Model/Frances.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Frances.cpp.s
-.PHONY : Model/Frances.cpp.s
-
-Model/Nacionalidad.obj: Model/Nacionalidad.cpp.obj
-.PHONY : Model/Nacionalidad.obj
-
-# target to build an object file
-Model/Nacionalidad.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Nacionalidad.cpp.obj
-.PHONY : Model/Nacionalidad.cpp.obj
-
-Model/Nacionalidad.i: Model/Nacionalidad.cpp.i
-.PHONY : Model/Nacionalidad.i
-
-# target to preprocess a source file
-Model/Nacionalidad.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Nacionalidad.cpp.i
-.PHONY : Model/Nacionalidad.cpp.i
-
-Model/Nacionalidad.s: Model/Nacionalidad.cpp.s
-.PHONY : Model/Nacionalidad.s
-
-# target to generate assembly for a file
-Model/Nacionalidad.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Nacionalidad.cpp.s
-.PHONY : Model/Nacionalidad.cpp.s
-
-Model/Reclutador.obj: Model/Reclutador.cpp.obj
-.PHONY : Model/Reclutador.obj
-
-# target to build an object file
-Model/Reclutador.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Reclutador.cpp.obj
-.PHONY : Model/Reclutador.cpp.obj
-
-Model/Reclutador.i: Model/Reclutador.cpp.i
-.PHONY : Model/Reclutador.i
-
-# target to preprocess a source file
-Model/Reclutador.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Reclutador.cpp.i
-.PHONY : Model/Reclutador.cpp.i
-
-Model/Reclutador.s: Model/Reclutador.cpp.s
-.PHONY : Model/Reclutador.s
-
-# target to generate assembly for a file
-Model/Reclutador.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Reclutador.cpp.s
-.PHONY : Model/Reclutador.cpp.s
-
-Model/Sudafricano.obj: Model/Sudafricano.cpp.obj
-.PHONY : Model/Sudafricano.obj
-
-# target to build an object file
-Model/Sudafricano.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Sudafricano.cpp.obj
-.PHONY : Model/Sudafricano.cpp.obj
-
-Model/Sudafricano.i: Model/Sudafricano.cpp.i
-.PHONY : Model/Sudafricano.i
-
-# target to preprocess a source file
-Model/Sudafricano.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Sudafricano.cpp.i
-.PHONY : Model/Sudafricano.cpp.i
-
-Model/Sudafricano.s: Model/Sudafricano.cpp.s
-.PHONY : Model/Sudafricano.s
-
-# target to generate assembly for a file
-Model/Sudafricano.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Sudafricano.cpp.s
-.PHONY : Model/Sudafricano.cpp.s
-
-Model/main.obj: Model/main.cpp.obj
-.PHONY : Model/main.obj
-
-# target to build an object file
-Model/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/main.cpp.obj
-.PHONY : Model/main.cpp.obj
-
-Model/main.i: Model/main.cpp.i
-.PHONY : Model/main.i
-
-# target to preprocess a source file
-Model/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/main.cpp.i
-.PHONY : Model/main.cpp.i
-
-Model/main.s: Model/main.cpp.s
-.PHONY : Model/main.s
-
-# target to generate assembly for a file
-Model/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/main.cpp.s
-.PHONY : Model/main.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -328,31 +160,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... prueba
-	@echo ... Model/Candidato.obj
-	@echo ... Model/Candidato.i
-	@echo ... Model/Candidato.s
-	@echo ... Model/Colombiano.obj
-	@echo ... Model/Colombiano.i
-	@echo ... Model/Colombiano.s
-	@echo ... Model/Coreano.obj
-	@echo ... Model/Coreano.i
-	@echo ... Model/Coreano.s
-	@echo ... Model/Frances.obj
-	@echo ... Model/Frances.i
-	@echo ... Model/Frances.s
-	@echo ... Model/Nacionalidad.obj
-	@echo ... Model/Nacionalidad.i
-	@echo ... Model/Nacionalidad.s
-	@echo ... Model/Reclutador.obj
-	@echo ... Model/Reclutador.i
-	@echo ... Model/Reclutador.s
-	@echo ... Model/Sudafricano.obj
-	@echo ... Model/Sudafricano.i
-	@echo ... Model/Sudafricano.s
-	@echo ... Model/main.obj
-	@echo ... Model/main.i
-	@echo ... Model/main.s
+	@echo ... src
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 
