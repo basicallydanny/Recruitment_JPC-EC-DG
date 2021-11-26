@@ -1,6 +1,9 @@
-#include <iostream>
+#include "View/View.h"
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+int main()
+{
+    View view;
+    view.mostrarMenu();
+
     return 0;
 }
