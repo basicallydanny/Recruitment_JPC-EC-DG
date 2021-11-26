@@ -1,4 +1,3 @@
-
 #ifndef PRUEBA_CANDIDATO_H
 #define PRUEBA_CANDIDATO_H
 
@@ -20,9 +19,9 @@ protected:
     Nacionalidad nacionalidad;
 public:
     Candidato();
-    Candidato(string nombre, string correo, string linkedIn, string github, string pasaporte, bool genero);
+    Candidato(string nombre, string correo, string linkedIn, string github, int pasaporte, bool genero);
     Nacionalidad getNacionalidad();
-    setNacionalidad( nacionalidad Nacionalidad );
+    void setNacionalidad( Nacionalidad nacionalidad );
 };
 
 #endif //PRUEBA_CANDIDATO_H
