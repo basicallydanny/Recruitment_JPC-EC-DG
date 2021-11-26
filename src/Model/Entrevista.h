@@ -10,6 +10,7 @@
 #include <string>
 #include <vector>
 #include <iterator>
+#include <fstream>
 #include <map>
 
 class Entrevista{
@@ -18,6 +19,8 @@ private:
     vector<Entrevista> entrevistasAgendadas;
 public:
     void agendarEntrevistas();
+    string nombreMayus( string name );
+    void generarGuia( Candidato candidato );
 };
 
 #endif //PRUEBA_ENTREVISTA_H

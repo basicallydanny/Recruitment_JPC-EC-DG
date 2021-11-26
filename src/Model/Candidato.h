@@ -22,6 +22,13 @@ public:
     Candidato(string nombre, string correo, string linkedIn, string github, int pasaporte, bool genero);
     Nacionalidad getNacionalidad();
     void setNacionalidad( Nacionalidad nacionalidad );
+
+    string getNombre();
+    string getCorreo();
+    string getLinkedIn();
+    string getGithub();
+    string getPasaporte();
+    bool getGenero();
 };
 
 #endif //PRUEBA_CANDIDATO_H
