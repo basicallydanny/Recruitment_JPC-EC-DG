@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/prueba.dir/Model/Candidato.cpp.obj"
   "CMakeFiles/prueba.dir/Model/Colombiano.cpp.obj"
   "CMakeFiles/prueba.dir/Model/Coreano.cpp.obj"
+  "CMakeFiles/prueba.dir/Model/Entrevista.cpp.obj"
   "CMakeFiles/prueba.dir/Model/Frances.cpp.obj"
   "CMakeFiles/prueba.dir/Model/Nacionalidad.cpp.obj"
   "CMakeFiles/prueba.dir/Model/Reclutador.cpp.obj"

@@ -200,6 +200,30 @@ Model/Coreano.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Coreano.cpp.s
 .PHONY : Model/Coreano.cpp.s
 
+Model/Entrevista.obj: Model/Entrevista.cpp.obj
+.PHONY : Model/Entrevista.obj
+
+# target to build an object file
+Model/Entrevista.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Entrevista.cpp.obj
+.PHONY : Model/Entrevista.cpp.obj
+
+Model/Entrevista.i: Model/Entrevista.cpp.i
+.PHONY : Model/Entrevista.i
+
+# target to preprocess a source file
+Model/Entrevista.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Entrevista.cpp.i
+.PHONY : Model/Entrevista.cpp.i
+
+Model/Entrevista.s: Model/Entrevista.cpp.s
+.PHONY : Model/Entrevista.s
+
+# target to generate assembly for a file
+Model/Entrevista.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prueba.dir\build.make CMakeFiles/prueba.dir/Model/Entrevista.cpp.s
+.PHONY : Model/Entrevista.cpp.s
+
 Model/Frances.obj: Model/Frances.cpp.obj
 .PHONY : Model/Frances.obj
 
@@ -338,6 +362,9 @@ help:
 	@echo ... Model/Coreano.obj
 	@echo ... Model/Coreano.i
 	@echo ... Model/Coreano.s
+	@echo ... Model/Entrevista.obj
+	@echo ... Model/Entrevista.i
+	@echo ... Model/Entrevista.s
 	@echo ... Model/Frances.obj
 	@echo ... Model/Frances.i
 	@echo ... Model/Frances.s

@@ -11,11 +11,13 @@
 #include <string>
 #include <vector>
 #include <iterator>
+#include <map>
 
 class Reclutador {
 private:
-    Candidato map<int, Candidato>;
+    map<int, Candidato> candidatos;
 public:
+    void crearCandidato();
     void agendarEntrevistas(int id);
     void generarGuia(Candidato candidato);
     void generarCarta(Candidato candidato);

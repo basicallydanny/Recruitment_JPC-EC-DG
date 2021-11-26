@@ -1,7 +1,7 @@
 #include "Candidato.h"
 Candidato::Candidato() {
 }
-Candidato::Candidato(string nombre, string correo, string linkedIn, string github, string pasaporte, string genero) {
+Candidato::Candidato(string nombre, string correo, string linkedIn, string github, int pasaporte, string genero) {
     cout << "Digite el nombre del candidato: ";
     cin >> nombre;
 

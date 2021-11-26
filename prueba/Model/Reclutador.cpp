@@ -3,3 +3,10 @@
 //
 
 #include "Reclutador.h"
+
+void Reclutador::crearCandidato() {
+    int pasaporte;
+    for (int i = 0; i < ; ++i) {
+        
+    }
+}

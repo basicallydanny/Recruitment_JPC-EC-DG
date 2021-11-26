@@ -5,6 +5,9 @@
 #include <iostream>
 #include <string>
 #include "Nacionalidad.h"
+#include <vector>
+#include <iterator>
+#include <map>
 
 using namespace std;
 using std::string;
@@ -15,12 +18,12 @@ protected:
     string correo;
     string linkedIn;
     string github;
-    string pasaporte;
-    bool genero;
+    int pasaporte;
+    string genero;
     Nacionalidad nacionalidad;
 public:
     Candidato();
-    Candidato(string nombre, string correo, string linkedIn, string github, string pasaporte, string genero);
+    Candidato(string nombre, string correo, string linkedIn, string github, int pasaporte, string genero);
     Nacionalidad getNacionalidad();
     void setNacionalidad( Nacionalidad Nacionalidad );
 };
