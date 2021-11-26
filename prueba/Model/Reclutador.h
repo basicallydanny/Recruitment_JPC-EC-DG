@@ -15,10 +15,10 @@
 
 class Reclutador {
 private:
-    map<int, Candidato> candidatos;
+    map<int, Candidato*> candidatos;
 public:
     void crearCandidato();
-    void agendarEntrevistas(int id);
+    void agendarEntrevistas(int pasaporte);
     void generarGuia(Candidato candidato);
     void generarCarta(Candidato candidato);
 };
