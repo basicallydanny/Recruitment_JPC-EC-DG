@@ -30,9 +30,20 @@ void Reclutador::crearCandidato() {
         genero = false;
     }
     Candidato * x = new Candidato(nombre, correo, linkedIn, github, pasaporte, genero);
-    this->candidatos.insert({1, x});
+    this->candidatos.insert({pasaporte, x});
 
     /*Candidato * x1 = new Candidato("Emma", "emmacoll", "emmacoll", "EMMA", 2, false);
     this->candidatos.insert({2, x1});*/
 
+}
+
+void Reclutador::agendarEntrevistas(int pasaporte) {
+    int hora, i;
+    cout << "Digite la hora de la entrevista (No antes de las 10 a.m, en hora militar): ";
+    cin >> hora;
+    for (i = 1; i < candidatos.size() + 1; i++) {
+        if (this->candidatos[i]->getPasaporte() == pasaporte) {
+            this->entrevistasAgendadas.insert({hora, candidatos[i]});
+        }
+    }
 }

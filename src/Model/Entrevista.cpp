@@ -33,7 +33,7 @@ void Entrevista::generarGuia(Candidato candidato){
     write << "Esta guia de entrevista esta creada para el candidato: " << nombreMayus(candidato.getNombre()) << "\n";
     write << "Para la fecha " << /*Inserte la fecha*/ << "\n\n";
 
-    if (candidato.getGenero() == 0) {
+    if (candidato.getGenero() == 1) {
         write << "El candidato es de " << candidato->nacionalidad.getNombrePais() << "\n\n";
     } else {
         write << "La candidata es de " << candidato->nacionalidad.getNombrePais() << "\n\n";

@@ -6,6 +6,7 @@
 #define PRUEBA_RECLUTADOR_H
 
 #include "Candidato.h"
+#include "Entrevista.h"
 #include "Nacionalidad.h"
 #include <iostream>
 #include <string>
@@ -16,6 +17,7 @@
 class Reclutador {
 private:
     map<int, Candidato*> candidatos;
+    map<int, Candidato*> entrevistasAgendadas;
 public:
     void crearCandidato();
     void agendarEntrevistas(int pasaporte);
