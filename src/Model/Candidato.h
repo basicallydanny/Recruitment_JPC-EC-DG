@@ -14,7 +14,7 @@ protected:
     string correo;
     string linkedIn;
     string github;
-    string pasaporte;
+    int pasaporte;
     bool genero;
     Nacionalidad nacionalidad;
 
