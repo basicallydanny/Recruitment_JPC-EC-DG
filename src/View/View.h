@@ -12,7 +12,7 @@ using std::string;
 
 class View{
 private:
-    Recltador Jairo;
+    Reclutador Jairo;
 public:
     View();
     void mostrarMenu();
