@@ -296,6 +296,30 @@ Model/Sudafricano.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Sudafricano.cpp.s
 .PHONY : Model/Sudafricano.cpp.s
 
+View/View.obj: View/View.cpp.obj
+.PHONY : View/View.obj
+
+# target to build an object file
+View/View.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/View/View.cpp.obj
+.PHONY : View/View.cpp.obj
+
+View/View.i: View/View.cpp.i
+.PHONY : View/View.i
+
+# target to preprocess a source file
+View/View.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/View/View.cpp.i
+.PHONY : View/View.cpp.i
+
+View/View.s: View/View.cpp.s
+.PHONY : View/View.s
+
+# target to generate assembly for a file
+View/View.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/View/View.cpp.s
+.PHONY : View/View.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -350,6 +374,9 @@ help:
 	@echo ... Model/Sudafricano.obj
 	@echo ... Model/Sudafricano.i
 	@echo ... Model/Sudafricano.s
+	@echo ... View/View.obj
+	@echo ... View/View.i
+	@echo ... View/View.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

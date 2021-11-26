@@ -122,6 +122,12 @@
 		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Sudafricano.h">
 			<Option target="src"/>
 		</Unit>
+		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/View/View.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/View/View.h">
+			<Option target="src"/>
+		</Unit>
 		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/main.cpp">
 			<Option target="src"/>
 		</Unit>

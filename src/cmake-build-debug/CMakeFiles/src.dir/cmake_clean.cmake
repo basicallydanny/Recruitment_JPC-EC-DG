@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/src.dir/Model/Nacionalidad.cpp.obj"
   "CMakeFiles/src.dir/Model/Reclutador.cpp.obj"
   "CMakeFiles/src.dir/Model/Sudafricano.cpp.obj"
+  "CMakeFiles/src.dir/View/View.cpp.obj"
   "CMakeFiles/src.dir/main.cpp.obj"
   "libsrc.dll.a"
   "src.exe"

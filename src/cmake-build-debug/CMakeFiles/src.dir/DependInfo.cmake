@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Nacionalidad.cpp" "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/Model/Nacionalidad.cpp.obj"
   "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Reclutador.cpp" "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/Model/Reclutador.cpp.obj"
   "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Sudafricano.cpp" "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/Model/Sudafricano.cpp.obj"
+  "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/View/View.cpp" "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/View/View.cpp.obj"
   "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/main.cpp" "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

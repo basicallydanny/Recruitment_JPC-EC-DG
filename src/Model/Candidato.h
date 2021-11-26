@@ -27,7 +27,7 @@ public:
     string getCorreo();
     string getLinkedIn();
     string getGithub();
-    string getPasaporte();
+    int getPasaporte();
     bool getGenero();
 };
 
