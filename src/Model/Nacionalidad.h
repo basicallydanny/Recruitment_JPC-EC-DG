@@ -13,6 +13,7 @@ using std::string;
 
 class Nacionalidad{
 protected:
+    string nombrePais;
     bool tipoCultura;
     string contactoVisual;
     string gestos;
