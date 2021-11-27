@@ -1,7 +1,3 @@
-//
-// Created by ecoll on 24/11/2021.
-//
-
 #ifndef PRUEBA_NACIONALIDAD_H
 #define PRUEBA_NACIONALIDAD_H
 
@@ -26,15 +22,6 @@ protected:
 
 public:
     virtual ~Nacionalidad(){};
-    bool getTipoCultura();
-    string getContactoVisual();
-    string getGestos();
-    string getTacto();
-    string getRespeto();
-    string getGestionTiempo();
-    string getEstiloComunicacion();
-    bool getTieneSiesta();
-    string getFestividades();
-};
+    virtual void consultarConocimientos(Nacionalidad )
 
 #endif //PRUEBA_NACIONALIDAD_H
