@@ -16,11 +16,12 @@ protected:
     string github;
     int pasaporte;
     bool genero;
+    bool aprobado;
     Nacionalidad nacionalidad;
 
 public:
     Candidato();
-    Candidato(string nombre, string correo, string linkedIn, string github, int pasaporte, bool genero);
+    Candidato(string nombre, string correo, string linkedIn, string github, int pasaporte, bool genero, bool aprobado);
     Nacionalidad getNacionalidad();
     void setNacionalidad( Nacionalidad nacionalidad );
     string getNombre();
@@ -29,6 +30,7 @@ public:
     string getGithub();
     int getPasaporte();
     bool getGenero();
+    bool getEstado();
 };
 
 #endif //CANDIDATO_H

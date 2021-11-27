@@ -18,11 +18,12 @@ class Reclutador {
 private:
     map<int, Candidato*> candidatos;
     map<int, Candidato*> entrevistasAgendadas;
+    map<int, Candidato*> candidatosAprobados;
 public:
     void crearCandidato();
     void agendarEntrevistas(int pasaporte);
-    void generarGuia(Candidato candidato);
-    void generarCarta(Candidato candidato);
+    void generarGuia(int pasaporte);
+    void generarCarta(int pasaporte);
 };
 
 

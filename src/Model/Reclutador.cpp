@@ -5,6 +5,8 @@ void Reclutador::crearCandidato() {
     int pasaporte;
     int validaGenero;
     bool genero;
+    int validaAprobado;
+    bool aprobado;
 
     cout << "Digite el nombre del candidato: ";
     cin >> nombre;
@@ -29,7 +31,16 @@ void Reclutador::crearCandidato() {
     }else{
         genero = false;
     }
-    Candidato * x = new Candidato(nombre, correo, linkedIn, github, pasaporte, genero);
+
+    cout << "Digite si el candidato aprobo (1 si, 0 no): ";
+    cin >> validaAprobado;
+
+    if (validaAprobado == 1){
+        aprobado = true;
+    }else{
+        aprobado = false;
+    }
+    Candidato * x = new Candidato(nombre, correo, linkedIn, github, pasaporte, genero, aprobado);
     this->candidatos.insert({pasaporte, x});
 
     /*Candidato * x1 = new Candidato("Emma", "emmacoll", "emmacoll", "EMMA", 2, false);
@@ -44,6 +55,16 @@ void Reclutador::agendarEntrevistas(int pasaporte) {
     for (i = 1; i < candidatos.size() + 1; i++) {
         if (this->candidatos[i]->getPasaporte() == pasaporte) {
             this->entrevistasAgendadas.insert({hora, candidatos[i]});
+        }
+    }
+}
+
+void Reclutador::generarCarta(int pasaporte) {
+    cout << "Digite el pasaporte del candidato: ";
+    cin >> pasaporte;
+    for (int i = 1; i < candidatos.size() + 1; i++) {
+        if (this->candidatos[i]->getEstado() == true) {
+            this->candidatosAprobados.insert({pasaporte, candidatos[i]});
         }
     }
 }

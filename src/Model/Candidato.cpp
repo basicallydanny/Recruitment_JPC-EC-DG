@@ -2,7 +2,7 @@
 Candidato::Candidato() {
 }
 
-Candidato::Candidato(string nombre, string correo, string linkedIn, string github, int pasaporte, bool genero) {
+Candidato::Candidato(string nombre, string correo, string linkedIn, string github, int pasaporte, bool genero, bool aprobado) {
     this->nombre = nombre;
     this->correo = correo;
     this->linkedIn = linkedIn;
@@ -26,10 +26,14 @@ string Candidato::getGithub(){
     return this->github;
 }
 
-string Candidato::getPasaporte(){
+int Candidato::getPasaporte(){
     return this->pasaporte;
 }
 
 bool Candidato::getGenero(){
     return this->genero;
+}
+
+bool Candidato::getEstado() {
+    return this->aprobado;
 }
