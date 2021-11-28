@@ -119,5 +119,4 @@ void Reclutador::generarCarta(int pasaporte) {
             cout << "La carta ha sido generada con exito.";
             }
         }
-    }
 }
