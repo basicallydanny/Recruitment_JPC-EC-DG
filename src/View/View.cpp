@@ -4,7 +4,7 @@ View::View(){
 }
 
 void View::mostrarMenu(){
-    int opcion;
+    int opcion, pasaporte;
     do{
         cout << "Menu Reclutador\n";
         cout << "1. Consultar los conocimientos culturales\n";
@@ -13,18 +13,27 @@ void View::mostrarMenu(){
         cout << "4. Generar guía de entrevistas\n";
         cout << "5. Generar la carta de bienvenida\n";
         cout << "0. Salir \n";
-        std::cout << "Digita el numero: ";
-        std::cin >> opcion;
+        cout << "Digita el numero: ";
+        cin >> opcion;
         switch (opcion){
             case 1:
+                reclutador.consultarConocimientos();
                 break;
             case 2:
+                reclutador.crearCandidato();
                 break;
             case 3:
+                cout << "Ingrese el pasaporte del candidato: " << endl;
+                cin >> pasaporte;
+                reclutador.agendarEntrevistas(pasaporte);
                 break;
             case 4:
+                cout << "Ingrese el pasaporte del candidato: " << endl;
+                cin >> pasaporte;
+                reclutador.generarGuia(pasaporte);
                 break;
             case 5:
+                reclutador.generarCarta(pasaporte);
                 break;
         }
     } while (opcion != 0);

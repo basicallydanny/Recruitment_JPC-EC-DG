@@ -56,10 +56,17 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = C:\Users\danie\Desktop\Proyecto2\Recruitment_JPC-EC-DG\src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:\Users\danie\Desktop\Proyecto2\Recruitment_JPC-EC-DG\src\cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug
+>>>>>>> 3e4836d2b03801a5e117c7f40f0897e613de4e1c
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +93,15 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\danie\Desktop\Proyecto2\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles C:\Users\danie\Desktop\Proyecto2\Recruitment_JPC-EC-DG\src\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\danie\Desktop\Proyecto2\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\\CMakeFiles\progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles 0
+>>>>>>> 3e4836d2b03801a5e117c7f40f0897e613de4e1c
 .PHONY : all
 
 # The main clean target

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\danie\Desktop\Proyecto2\Recruitment_JPC-EC-DG\src
+=======
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src
+>>>>>>> 3e4836d2b03801a5e117c7f40f0897e613de4e1c
 -- The C compiler identification is GNU 6.3.0
 -- The CXX compiler identification is GNU 6.3.0
 -- Detecting C compiler ABI info
@@ -13,4 +17,8 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
+<<<<<<< HEAD
 -- Build files have been written to: C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug
+=======
+-- Build files have been written to: C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/cmake-build-debug
+>>>>>>> 3e4836d2b03801a5e117c7f40f0897e613de4e1c

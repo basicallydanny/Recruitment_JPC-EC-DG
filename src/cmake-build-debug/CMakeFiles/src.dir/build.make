@@ -52,10 +52,17 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = C:\Users\danie\Desktop\Proyecto2\Recruitment_JPC-EC-DG\src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:\Users\danie\Desktop\Proyecto2\Recruitment_JPC-EC-DG\src\cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug
+>>>>>>> 3e4836d2b03801a5e117c7f40f0897e613de4e1c
 
 # Include any dependencies generated for this target.
 include CMakeFiles/src.dir/depend.make
@@ -67,6 +74,7 @@ include CMakeFiles/src.dir/flags.make
 
 CMakeFiles/src.dir/main.cpp.obj: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/main.cpp.obj: ../main.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\Desktop\Proyecto2\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/src.dir/main.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\src.dir\main.cpp.obj -c C:\Users\danie\Desktop\Proyecto2\Recruitment_JPC-EC-DG\src\main.cpp
 
@@ -181,6 +189,122 @@ CMakeFiles/src.dir/Model/Reclutador.cpp.i: cmake_force
 CMakeFiles/src.dir/Model/Reclutador.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/Model/Reclutador.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\danie\Desktop\Proyecto2\Recruitment_JPC-EC-DG\src\Model\Reclutador.cpp -o CMakeFiles\src.dir\Model\Reclutador.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/src.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\src.dir\main.cpp.obj -c C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\main.cpp
+
+CMakeFiles/src.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\main.cpp > CMakeFiles\src.dir\main.cpp.i
+
+CMakeFiles/src.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\main.cpp -o CMakeFiles\src.dir\main.cpp.s
+
+CMakeFiles/src.dir/View/View.cpp.obj: CMakeFiles/src.dir/flags.make
+CMakeFiles/src.dir/View/View.cpp.obj: ../View/View.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/src.dir/View/View.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\src.dir\View\View.cpp.obj -c C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\View\View.cpp
+
+CMakeFiles/src.dir/View/View.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/View/View.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\View\View.cpp > CMakeFiles\src.dir\View\View.cpp.i
+
+CMakeFiles/src.dir/View/View.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/View/View.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\View\View.cpp -o CMakeFiles\src.dir\View\View.cpp.s
+
+CMakeFiles/src.dir/Model/Candidato.cpp.obj: CMakeFiles/src.dir/flags.make
+CMakeFiles/src.dir/Model/Candidato.cpp.obj: ../Model/Candidato.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/src.dir/Model/Candidato.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\src.dir\Model\Candidato.cpp.obj -c C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Candidato.cpp
+
+CMakeFiles/src.dir/Model/Candidato.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/Model/Candidato.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Candidato.cpp > CMakeFiles\src.dir\Model\Candidato.cpp.i
+
+CMakeFiles/src.dir/Model/Candidato.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/Model/Candidato.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Candidato.cpp -o CMakeFiles\src.dir\Model\Candidato.cpp.s
+
+CMakeFiles/src.dir/Model/Colombiano.cpp.obj: CMakeFiles/src.dir/flags.make
+CMakeFiles/src.dir/Model/Colombiano.cpp.obj: ../Model/Colombiano.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/src.dir/Model/Colombiano.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\src.dir\Model\Colombiano.cpp.obj -c C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Colombiano.cpp
+
+CMakeFiles/src.dir/Model/Colombiano.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/Model/Colombiano.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Colombiano.cpp > CMakeFiles\src.dir\Model\Colombiano.cpp.i
+
+CMakeFiles/src.dir/Model/Colombiano.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/Model/Colombiano.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Colombiano.cpp -o CMakeFiles\src.dir\Model\Colombiano.cpp.s
+
+CMakeFiles/src.dir/Model/Nacionalidad.cpp.obj: CMakeFiles/src.dir/flags.make
+CMakeFiles/src.dir/Model/Nacionalidad.cpp.obj: ../Model/Nacionalidad.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/src.dir/Model/Nacionalidad.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\src.dir\Model\Nacionalidad.cpp.obj -c C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Nacionalidad.cpp
+
+CMakeFiles/src.dir/Model/Nacionalidad.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/Model/Nacionalidad.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Nacionalidad.cpp > CMakeFiles\src.dir\Model\Nacionalidad.cpp.i
+
+CMakeFiles/src.dir/Model/Nacionalidad.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/Model/Nacionalidad.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Nacionalidad.cpp -o CMakeFiles\src.dir\Model\Nacionalidad.cpp.s
+
+CMakeFiles/src.dir/Model/Coreano.cpp.obj: CMakeFiles/src.dir/flags.make
+CMakeFiles/src.dir/Model/Coreano.cpp.obj: ../Model/Coreano.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/src.dir/Model/Coreano.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\src.dir\Model\Coreano.cpp.obj -c C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Coreano.cpp
+
+CMakeFiles/src.dir/Model/Coreano.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/Model/Coreano.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Coreano.cpp > CMakeFiles\src.dir\Model\Coreano.cpp.i
+
+CMakeFiles/src.dir/Model/Coreano.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/Model/Coreano.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Coreano.cpp -o CMakeFiles\src.dir\Model\Coreano.cpp.s
+
+CMakeFiles/src.dir/Model/Sudafricano.cpp.obj: CMakeFiles/src.dir/flags.make
+CMakeFiles/src.dir/Model/Sudafricano.cpp.obj: ../Model/Sudafricano.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/src.dir/Model/Sudafricano.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\src.dir\Model\Sudafricano.cpp.obj -c C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Sudafricano.cpp
+
+CMakeFiles/src.dir/Model/Sudafricano.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/Model/Sudafricano.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Sudafricano.cpp > CMakeFiles\src.dir\Model\Sudafricano.cpp.i
+
+CMakeFiles/src.dir/Model/Sudafricano.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/Model/Sudafricano.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Sudafricano.cpp -o CMakeFiles\src.dir\Model\Sudafricano.cpp.s
+
+CMakeFiles/src.dir/Model/Frances.cpp.obj: CMakeFiles/src.dir/flags.make
+CMakeFiles/src.dir/Model/Frances.cpp.obj: ../Model/Frances.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/src.dir/Model/Frances.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\src.dir\Model\Frances.cpp.obj -c C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Frances.cpp
+
+CMakeFiles/src.dir/Model/Frances.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/Model/Frances.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Frances.cpp > CMakeFiles\src.dir\Model\Frances.cpp.i
+
+CMakeFiles/src.dir/Model/Frances.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/Model/Frances.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Frances.cpp -o CMakeFiles\src.dir\Model\Frances.cpp.s
+
+CMakeFiles/src.dir/Model/Reclutador.cpp.obj: CMakeFiles/src.dir/flags.make
+CMakeFiles/src.dir/Model/Reclutador.cpp.obj: ../Model/Reclutador.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/src.dir/Model/Reclutador.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\src.dir\Model\Reclutador.cpp.obj -c C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Reclutador.cpp
+
+CMakeFiles/src.dir/Model/Reclutador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/Model/Reclutador.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Reclutador.cpp > CMakeFiles\src.dir\Model\Reclutador.cpp.i
+
+CMakeFiles/src.dir/Model/Reclutador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/Model/Reclutador.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\Model\Reclutador.cpp -o CMakeFiles\src.dir\Model\Reclutador.cpp.s
+>>>>>>> 3e4836d2b03801a5e117c7f40f0897e613de4e1c
 
 # Object files for target src
 src_OBJECTS = \
@@ -210,7 +334,11 @@ src.exe: CMakeFiles/src.dir/build.make
 src.exe: CMakeFiles/src.dir/linklibs.rsp
 src.exe: CMakeFiles/src.dir/objects1.rsp
 src.exe: CMakeFiles/src.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\danie\Desktop\Proyecto2\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable src.exe"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable src.exe"
+>>>>>>> 3e4836d2b03801a5e117c7f40f0897e613de4e1c
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\src.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -222,6 +350,10 @@ CMakeFiles/src.dir/clean:
 .PHONY : CMakeFiles/src.dir/clean
 
 CMakeFiles/src.dir/depend:
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\danie\Desktop\Proyecto2\Recruitment_JPC-EC-DG\src C:\Users\danie\Desktop\Proyecto2\Recruitment_JPC-EC-DG\src C:\Users\danie\Desktop\Proyecto2\Recruitment_JPC-EC-DG\src\cmake-build-debug C:\Users\danie\Desktop\Proyecto2\Recruitment_JPC-EC-DG\src\cmake-build-debug C:\Users\danie\Desktop\Proyecto2\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles\src.dir\DependInfo.cmake --color=$(COLOR)
+=======
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles\src.dir\DependInfo.cmake --color=$(COLOR)
+>>>>>>> 3e4836d2b03801a5e117c7f40f0897e613de4e1c
 .PHONY : CMakeFiles/src.dir/depend
 

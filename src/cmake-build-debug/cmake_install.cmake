@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src
+=======
+# Install script for directory: C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src
+>>>>>>> 3e4836d2b03801a5e117c7f40f0897e613de4e1c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +49,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> 3e4836d2b03801a5e117c7f40f0897e613de4e1c
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
