@@ -13,7 +13,7 @@ protected:
     string contactoVisual = "No tienen problema frente al contacto visual prolongado.";
     string gestos = "la expresión 'paila' para decir que se está mal y el señalar con la punta de los labios";
     string tacto = "suelen ser muy abiertos al contacto, sin importar de quién lo reciben.";
-    string respeto = " ";
+    string respeto = "No se respeta mucho el espacio fisico cuando se encuentran personas de confianza.";
     string gestionTiempo = "se obtienen resultados, aunque los metodos de gestion pueden ser ortodoxos";
     string estiloComunicacion = "tienen una gran velocidad y expresiones propias que emplean muchas comparaciones para darse a entender.";
     bool tieneSiesta = false;
