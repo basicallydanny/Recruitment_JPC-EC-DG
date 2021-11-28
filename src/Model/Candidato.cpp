@@ -2,13 +2,15 @@
 Candidato::Candidato() {
 }
 
-Candidato::Candidato(string nombre, string correo, string linkedIn, string github, int pasaporte, bool genero, bool aprobado) {
+Candidato::Candidato(string nombre, string correo, string linkedIn, string github, int pasaporte, bool genero, bool aprobado, bool agendado, Nacionalidad nacionalidad) {
     this->nombre = nombre;
     this->correo = correo;
     this->linkedIn = linkedIn;
     this->pasaporte = pasaporte;
     this->genero = genero;
     this->aprobado = aprobado;
+    this->agendado = agendado;
+    this->nacionalidad = nacionalidad;
 }
 
 string Candidato::getNombre(){
@@ -65,4 +67,20 @@ void Candidato::setGenero(bool genero) {
 
 void Candidato::setAprobado(bool aprobado) {
     Candidato::aprobado = aprobado;
+}
+
+bool Candidato::getAgendado(){
+    return agendado;
+}
+
+void Candidato::setAgendado(bool agendado) {
+    Candidato::agendado = agendado;
+}
+
+void Candidato::setNacionalidad(Nacionalidad nacionalidad) {
+    Candidato::nacionalidad = nacionalidad;
+}
+
+Nacionalidad Candidato::getNacionalidad() {
+    return nacionalidad;
 }

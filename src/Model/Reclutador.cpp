@@ -9,50 +9,15 @@ bool Reclutador::verExisteCandidato(int pasaporte) {
     return false;
 }
 
-void Reclutador::crearCandidato() {
-    string nombre, correo, linkedIn, github;
-    int pasaporte;
-    int validaGenero;
-    bool genero;
-    int validaAprobado;
-    bool aprobado;
-
-    cout << "Digite el nombre del candidato: ";
-    cin >> nombre;
-
-    cout << "Digite el correo del candidato: ";
-    cin >> correo;
-
-    cout << "Digite el usuario linkedIn del candidato: ";
-    cin >> linkedIn;
-
-    cout << "Digite el usuario GitHub del candidato: ";
-    cin >> github;
-
-    cout << "Digite el pasaporte del candidato: ";
-    cin >> pasaporte;
-
-    cout << "Genero del candidato (1 mujer, 0 hombre): ";
-    cin >> validaGenero;
-
-    if (validaGenero == 1){
-        genero = true;
-    }else{
-        genero = false;
-    }
-
-    aprobado = false;
-
-    Candidato * x = new Candidato(nombre, correo, linkedIn, github, pasaporte, genero, aprobado);
-    this->candidatos.insert({pasaporte, x});
-}
-
 
 void Reclutador::aprobarCandidato(int pasaporte){
+    if (verExisteCandidato(pasaporte)) {
+        throw std::domain_error("El candidato con este pasaporte no existe.\n");
+    }
     for (int i = 1; i < entrevistasAgendadas.size() + 1; i++) {
         if (verExisteCandidato(pasaporte)) {
             for(map<int, Candidato*>::iterator it = entrevistasAgendadas.begin(); it != entrevistasAgendadas.end(); it++){
-                if(it->first == pasaporte){
+                if(it->first == pasaporte && ){
                     candidatos[i]->setAprobado(true);
                 }
             }
@@ -63,9 +28,12 @@ void Reclutador::aprobarCandidato(int pasaporte){
 
 void Reclutador::agendarEntrevistas(int pasaporte) {
     int hora, i;
+    if (!verExisteCandidato(pasaporte)) {
+        throw std::domain_error("El candidato no existe, crealo en el sistema\n");
+    }
     cout << "Digite la hora de la entrevista (No antes de las 10 a.m, en hora militar): ";
     cin >> hora;
-    for (i = 1; i < candidatos.size() + 1; i++) {
+    for (i = 1; i < candidatos.size() + 1; i++){
         if (this->candidatos[i]->getPasaporte() == pasaporte) {
             this->entrevistasAgendadas.insert({hora, candidatos[i]});
         }
@@ -131,5 +99,9 @@ void Reclutador::consultarConocimientos(int idNacion) {
     posNacion = idNacion - 1;
     Nacionalidad *pNacionEscogida = nacionalidades.at(idNacion - 1);
     pNacionEscogida->consultarConocimientos();
+
+}
+
+void Reclutador::generarGuia(int pasaporte) {
 
 }
