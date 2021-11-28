@@ -1,5 +1,14 @@
 #include "Reclutador.h"
 
+bool Reclutador::verExisteCandidato(int pasaporte) {
+    for(map<int, Candidato*>::iterator it = candidatos.begin(); it != candidatos.end(); it++){
+        if(it->first == pasaporte){
+            return true;
+        }
+    }
+    return false;
+}
+
 void Reclutador::crearCandidato() {
     string nombre, correo, linkedIn, github;
     int pasaporte;
@@ -32,21 +41,23 @@ void Reclutador::crearCandidato() {
         genero = false;
     }
 
-    cout << "Digite si el candidato aprobo (1 si, 0 no): ";
-    cin >> validaAprobado;
+    aprobado = false;
 
-    if (validaAprobado == 1){
+    Candidato * x = new Candidato(nombre, correo, linkedIn, github, pasaporte, genero, aprobado);
+    this->candidatos.insert({pasaporte, x});
+}
+
+/*
+ * TO-D0:
+void Reclutador::aprobarCandidato
+
+     if (validaAprobado == 1){
         aprobado = true;
     }else{
         aprobado = false;
     }
-    Candidato * x = new Candidato(nombre, correo, linkedIn, github, pasaporte, genero, aprobado);
-    this->candidatos.insert({pasaporte, x});
 
-    /*Candidato * x1 = new Candidato("Emma", "emmacoll", "emmacoll", "EMMA", 2, false);
-    this->candidatos.insert({2, x1});*/
-
-}
+ */
 
 void Reclutador::agendarEntrevistas(int pasaporte) {
     int hora, i;
@@ -60,11 +71,52 @@ void Reclutador::agendarEntrevistas(int pasaporte) {
 }
 
 void Reclutador::generarCarta(int pasaporte) {
-    cout << "Digite el pasaporte del candidato: ";
-    cin >> pasaporte;
+
+    if (verExisteCandidato(pasaporte) == false ) {
+        throw std::domain_error("El candidato con este pasaporte no existe.\n");
+    }
+
     for (int i = 1; i < candidatos.size() + 1; i++) {
-        if (this->candidatos[i]->getEstado() == true) {
-            
+        if (this->candidatos[i]->getPasaporte() == pasaporte) {
+
+            if (this->candidatos[i]->getEstado() != true ) {
+                throw std::domain_error("El candidato no ha sido aceptado.\n");
+            }
+
+            std::string carta = "CartaBienvenida_" + (this->candidatos[i]->getNombre()) + ".txt";
+            ofstream write (carta.c_str());
+            write << "            CARTA DE BIENVENIDA        " << "\n\n";
+
+            if (this->candidatos[i]->getGenero() == true){
+                    write << "Estimada" << this->candidatos[i]->getNombre() << ", \n\n";
+                    write << "Es de nuestro agrado hacer de su conocimiento que ha sido ACEPTADA " <<;
+            } else {
+                    write << "Estimado" << this->candidatos[i]->getNombre() << ", \n";
+                    write << "Es de nuestro agrado hacer de su conocimiento que ha sido ACEPTADO " <<;
+            }
+
+            write << "\n\nVALORES DE LA COMPAÑÍA:";
+            write << "\n\nTransparencia y responsabilidad:\n";
+            write << "\nEn la compañía, es de suma importancia la responsabilidad en el trabajo,"
+            << "ya que de esto depende no solo su desempeño individualmente, sino de todo el equipo de trabajo y de la empresa en sí."
+            << "Junto con esto, se le suma la transparencia, ya que ayudándonos de esta podemos lograr también una responsabilidad mayor"
+            << "para con la empresa, e incluso para su vida personal.";
+            write << "\n\nEficiencia y resultados:\n";
+            write << "\nSin dejar de lado la importancia del respeto, la responsabilidad y la transparencia,"
+            << "otro aspecto importante en los valores de la compañía es el deber de mostrar resultados."
+            << "La compañía está enfocada en seguir desarrollando cada aspecto de nuestros sistemas y servicios para darle la mejor de las experiencias a nuestros clientes,"
+            << "y para cumplir este objetivo se necesita de la cooperación y del compromiso de todos los miembros de la compañía, cada uno aportando su parte mostrando sus resultados.";
+            write << "\n\nInclusión y diversidad:\n";
+            write << "Al ser una empresa que recluta gente a nivel internacional, es de suma importancia entender la diversidad"
+            << "que hay en todos los equipos de trabajo, y entender que está sumamente prohibido cualquier discriminación por:"
+            << "género, raza, religión, cultura, orientación sexual, etc."
+            << "La compañía siempre velará por que todos sus empleados se sientan cómodos y a gusto en su trabajo.";
+
+            write << "\n\n¡LO ESPERAMOS CON MUCHO ENTUSIASMO!";
+
+            write.close();
+            cout << "La carta ha sido generada con exito.";
+            }
         }
     }
 }

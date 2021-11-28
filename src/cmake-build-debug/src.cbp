@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug"/>
+				<Option working_dir="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="src">
-				<Option output="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/src.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug"/>
+				<Option output="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/src.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -30,17 +30,18 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 src"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 src"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="src/fast">
-				<Option output="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/src.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug"/>
+				<Option output="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/src.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,87 +52,88 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 src/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 src/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug"/>
+				<Option working_dir="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug"/>
+				<Option working_dir="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Candidato.cpp">
+		<Unit filename="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/Model/Candidato.cpp">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Candidato.h">
+		<Unit filename="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/Model/Candidato.h">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Colombiano.cpp">
+		<Unit filename="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/Model/Colombiano.cpp">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Colombiano.h">
+		<Unit filename="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/Model/Colombiano.h">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Coreano.cpp">
+		<Unit filename="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/Model/Coreano.cpp">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Coreano.h">
+		<Unit filename="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/Model/Coreano.h">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Frances.cpp">
+		<Unit filename="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/Model/Frances.cpp">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Frances.h">
+		<Unit filename="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/Model/Frances.h">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Nacionalidad.cpp">
+		<Unit filename="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/Model/Nacionalidad.cpp">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Nacionalidad.h">
+		<Unit filename="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/Model/Nacionalidad.h">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Reclutador.cpp">
+		<Unit filename="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/Model/Reclutador.cpp">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Reclutador.h">
+		<Unit filename="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/Model/Reclutador.h">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Sudafricano.cpp">
+		<Unit filename="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/Model/Sudafricano.cpp">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Sudafricano.h">
+		<Unit filename="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/Model/Sudafricano.h">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/View/View.cpp">
+		<Unit filename="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/View/View.cpp">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/View/View.h">
+		<Unit filename="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/View/View.h">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/main.cpp">
+		<Unit filename="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/main.cpp">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/CMakeLists.txt">
+		<Unit filename="C:/Users/danie/Desktop/Proyecto2/Recruitment_JPC-EC-DG/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

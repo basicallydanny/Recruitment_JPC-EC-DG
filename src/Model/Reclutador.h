@@ -25,6 +25,7 @@ public:
     void generarGuia(int pasaporte);
     void generarCarta(int pasaporte);
     void consultarConocimientos(int idNacion);
+    bool verExisteCandidato(int pasaporte);
 };
 
 
