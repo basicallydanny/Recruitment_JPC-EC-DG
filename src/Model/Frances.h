@@ -1,13 +1,24 @@
-//
-// Created by ecoll on 24/11/2021.
-//
-
 #ifndef PRUEBA_FRANCES_H
 #define PRUEBA_FRANCES_H
 
+include "Nacionalidad.h"
 
-class Frances {
+class Frances : public Nacionalidad {
+protected:
+    string nombrePais;
+    bool tipoCultura;
+    string contactoVisual;
+    string gestos;
+    string tacto;
+    string respeto;
+    string gestionTiempo;
+    string estiloComunicacion;
+    bool tieneSiesta;
+    string festividades;
 
+public:
+    virtual ~Nacionalidad();
+    virtual void consultarConocimientos() override;
 };
 
 

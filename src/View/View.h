@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <stdlib.h>
-#include "Reclutador.h"
+#include "../Model/Reclutador.h"
 
 using std::cin;
 using std::cout;
