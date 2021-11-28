@@ -17,7 +17,7 @@ protected:
     string festividades;
 
 public:
-    virtual ~Nacionalidad();
+    virtual ~Coreano();
     virtual void consultarConocimientos() override;
 };
 

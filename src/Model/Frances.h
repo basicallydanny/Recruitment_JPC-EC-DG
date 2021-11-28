@@ -17,7 +17,7 @@ protected:
     string festividades;
 
 public:
-    virtual ~Nacionalidad();
+    virtual ~Frances();
     virtual void consultarConocimientos() override;
 };
 

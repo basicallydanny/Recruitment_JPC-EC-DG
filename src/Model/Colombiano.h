@@ -20,7 +20,7 @@ protected:
     string festividades;
 
 public:
-    virtual ~Nacionalidad();
+    virtual ~Colombiano();
     virtual void consultarConocimientos() override;
 };
 

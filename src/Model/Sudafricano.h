@@ -17,7 +17,7 @@ protected:
     string festividades;
 
 public:
-    virtual ~Nacionalidad();
+    virtual ~Sudafricano();
     virtual void consultarConocimientos() override;
 };
 
