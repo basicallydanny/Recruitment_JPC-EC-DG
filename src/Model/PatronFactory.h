@@ -6,10 +6,8 @@
 #include "Reclutador.h"
 
 class PatronFactory {
-private:
-    buscarNacionalidad(idNacion);
 public:
-    crearCandidato();
+    void crearCandidato();
 };
 
 

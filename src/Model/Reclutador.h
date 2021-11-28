@@ -4,6 +4,7 @@
 #include "Candidato.h"
 #include "Entrevista.h"
 #include "Nacionalidad.h"
+#include "PatronFactory.h"
 #include <iostream>
 #include <string>
 #include <vector>

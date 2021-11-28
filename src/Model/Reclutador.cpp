@@ -105,3 +105,7 @@ void Reclutador::consultarConocimientos(int idNacion) {
 void Reclutador::generarGuia(int pasaporte) {
 
 }
+
+void Reclutador::crearCandidato() {
+
+}
