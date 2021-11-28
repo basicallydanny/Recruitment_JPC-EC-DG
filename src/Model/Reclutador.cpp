@@ -51,7 +51,7 @@ void Reclutador::crearCandidato() {
 void Reclutador::aprobarCandidato(int pasaporte){
     for (int i = 1; i < candidatos.size() + 1; i++) {
         if (this->candidatos[i]->getPasaporte() == pasaporte) {
-            candidatos[i]->aprobado = true;
+            candidatos[i]->setAprobado(true);
         }
     }
  }

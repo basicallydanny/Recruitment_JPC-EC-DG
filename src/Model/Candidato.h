@@ -31,6 +31,22 @@ public:
     int getPasaporte();
     bool getGenero();
     bool getEstado();
+
+    void setNombre(const string &nombre);
+
+    void setCorreo(const string &correo);
+
+    void setLinkedIn(const string &linkedIn);
+
+    void setGithub(const string &github);
+
+    void setPasaporte(int pasaporte);
+
+    void setGenero(bool genero);
+
+    void setAprobado(bool aprobado);
 };
 
 #endif //CANDIDATO_H
+
+

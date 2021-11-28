@@ -38,3 +38,31 @@ bool Candidato::getGenero(){
 bool Candidato::getEstado() {
     return this->aprobado;
 }
+
+void Candidato::setNombre(const string &nombre) {
+    Candidato::nombre = nombre;
+}
+
+void Candidato::setCorreo(const string &correo) {
+    Candidato::correo = correo;
+}
+
+void Candidato::setLinkedIn(const string &linkedIn) {
+    Candidato::linkedIn = linkedIn;
+}
+
+void Candidato::setGithub(const string &github) {
+    Candidato::github = github;
+}
+
+void Candidato::setPasaporte(int pasaporte) {
+    Candidato::pasaporte = pasaporte;
+}
+
+void Candidato::setGenero(bool genero) {
+    Candidato::genero = genero;
+}
+
+void Candidato::setAprobado(bool aprobado) {
+    Candidato::aprobado = aprobado;
+}
