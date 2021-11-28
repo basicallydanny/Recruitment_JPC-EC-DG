@@ -90,10 +90,10 @@ void Reclutador::generarCarta(int pasaporte) {
 
             if (this->candidatos[i]->getGenero() == true){
                     write << "Estimada" << this->candidatos[i]->getNombre() << ", \n\n";
-                    write << "Es de nuestro agrado hacer de su conocimiento que ha sido ACEPTADA " <<;
+                    write << "Es de nuestro agrado hacer de su conocimiento que ha sido ACEPTADA " ;
             } else {
                     write << "Estimado" << this->candidatos[i]->getNombre() << ", \n";
-                    write << "Es de nuestro agrado hacer de su conocimiento que ha sido ACEPTADO " <<;
+                    write << "Es de nuestro agrado hacer de su conocimiento que ha sido ACEPTADO " ;
             }
 
             write << "\n\nVALORES DE LA COMPAÑÍA:";
