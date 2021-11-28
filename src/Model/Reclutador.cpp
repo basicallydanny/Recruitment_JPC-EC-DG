@@ -14,10 +14,10 @@ void Reclutador::aprobarCandidato(int pasaporte){
     if (verExisteCandidato(pasaporte)) {
         throw std::domain_error("El candidato con este pasaporte no existe.\n");
     }
-    for (int i = 1; i < entrevistasAgendadas.size() + 1; i++) {
+    for (int i = 1; i < candidatos.size() + 1; i++) {
         if (verExisteCandidato(pasaporte)) {
-            for(map<int, Candidato*>::iterator it = entrevistasAgendadas.begin(); it != entrevistasAgendadas.end(); it++){
-                if(it->first == pasaporte && ){
+            for(map<int, Candidato*>::iterator it = candidatos.begin(); it != candidatos.end(); it++){
+                if(it->first == pasaporte && candidatos[i]->getAgendado()){
                     candidatos[i]->setAprobado(true);
                 }
             }
@@ -35,7 +35,7 @@ void Reclutador::agendarEntrevistas(int pasaporte) {
     cin >> hora;
     for (i = 1; i < candidatos.size() + 1; i++){
         if (this->candidatos[i]->getPasaporte() == pasaporte) {
-            this->entrevistasAgendadas.insert({hora, candidatos[i]});
+            candidatos[i]->setAgendado(true);
         }
     }
 }
