@@ -64,7 +64,7 @@ void Reclutador::generarCarta(int pasaporte) {
     cin >> pasaporte;
     for (int i = 1; i < candidatos.size() + 1; i++) {
         if (this->candidatos[i]->getEstado() == true) {
-            this->candidatosAprobados.insert({pasaporte, candidatos[i]});
+            
         }
     }
 }
