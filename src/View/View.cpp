@@ -27,13 +27,14 @@ void View::mostrarMenu(){
         cout << "2. Crear candidatos\n";
         cout << "3. Programar entrevistas\n";
         cout << "4. Generar guía de entrevistas\n";
-        cout << "5. Generar la carta de bienvenida\n";
+        cout << "5. Aprobar Candidato\n";
+        cout << "6. Generar la carta de bienvenida\n";
         cout << "0. Salir \n";
         cout << "Digita el numero: ";
         cin >> opcion;
         switch (opcion){
             case 1:
-                reclutador.consultarConocimientos();
+                elegirNacion();
                 break;
             case 2:
                 reclutador.crearCandidato();
@@ -49,6 +50,13 @@ void View::mostrarMenu(){
                 reclutador.generarGuia(pasaporte);
                 break;
             case 5:
+                cout << "Ingrese el pasaporte del candidato: " << endl;
+                cin >> pasaporte;
+                reclutador.aprobarCandidato(pasaporte);
+                break;
+            case 6:
+                cout << "Ingrese el pasaporte del candidato: " << endl;
+                cin >> pasaporte;
                 reclutador.generarCarta(pasaporte);
                 break;
         }

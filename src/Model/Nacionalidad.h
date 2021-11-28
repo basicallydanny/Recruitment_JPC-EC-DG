@@ -22,7 +22,6 @@ protected:
 
 public:
     virtual ~Nacionalidad() {};
-
     virtual void consultarConocimientos() = 0;
 };
 #endif //PRUEBA_NACIONALIDAD_H
