@@ -49,9 +49,13 @@ void Reclutador::crearCandidato() {
 
 
 void Reclutador::aprobarCandidato(int pasaporte){
-    for (int i = 1; i < candidatos.size() + 1; i++) {
-        if (this->candidatos[i]->getPasaporte() == pasaporte) {
-            candidatos[i]->setAprobado(true);
+    for (int i = 1; i < entrevistasAgendadas.size() + 1; i++) {
+        if (verExisteCandidato(pasaporte)) {
+            for(map<int, Candidato*>::iterator it = entrevistasAgendadas.begin(); it != entrevistasAgendadas.end(); it++){
+                if(it->first == pasaporte){
+                    candidatos[i]->setAprobado(true);
+                }
+            }
         }
     }
  }
