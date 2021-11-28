@@ -1,10 +1,7 @@
-//
-// Created by ecoll on 24/11/2021.
-//
-
 #ifndef PRUEBA_SUDAFRICANO_H
 #define PRUEBA_SUDAFRICANO_H
 
+#include "Nacionalidad.h"
 
 class Sudafricano : public Nacionalidad {
 protected:

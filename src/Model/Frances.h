@@ -1,7 +1,7 @@
 #ifndef PRUEBA_FRANCES_H
 #define PRUEBA_FRANCES_H
 
-include "Nacionalidad.h"
+#include "Nacionalidad.h"
 
 class Frances : public Nacionalidad {
 protected:
