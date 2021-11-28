@@ -7,7 +7,7 @@
 using namespace std;
 using std::string;
 
-class Nacionalidad{
+class Nacionalidad {
 protected:
     string nombrePais;
     bool tipoCultura;
@@ -21,7 +21,8 @@ protected:
     string festividades;
 
 public:
-    virtual ~Nacionalidad(){};
-    virtual void consultarConocimientos() = 0;
+    virtual ~Nacionalidad() {};
 
+    virtual void consultarConocimientos() = 0;
+}
 #endif //PRUEBA_NACIONALIDAD_H
