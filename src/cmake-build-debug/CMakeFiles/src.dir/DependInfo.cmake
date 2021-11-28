@@ -8,15 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Candidato.cpp" "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/Model/Candidato.cpp.obj"
-  "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Colombiano.cpp" "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/Model/Colombiano.cpp.obj"
-  "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Coreano.cpp" "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/Model/Coreano.cpp.obj"
-  "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Frances.cpp" "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/Model/Frances.cpp.obj"
-  "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Nacionalidad.cpp" "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/Model/Nacionalidad.cpp.obj"
-  "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Reclutador.cpp" "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/Model/Reclutador.cpp.obj"
-  "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/Model/Sudafricano.cpp" "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/Model/Sudafricano.cpp.obj"
-  "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/View/View.cpp" "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/View/View.cpp.obj"
-  "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/main.cpp" "C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/main.cpp.obj"
+  "C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/Model/Candidato.cpp" "C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/Model/Candidato.cpp.obj"
+  "C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/Model/Colombiano.cpp" "C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/Model/Colombiano.cpp.obj"
+  "C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/Model/Coreano.cpp" "C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/Model/Coreano.cpp.obj"
+  "C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/Model/Frances.cpp" "C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/Model/Frances.cpp.obj"
+  "C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/Model/Nacionalidad.cpp" "C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/Model/Nacionalidad.cpp.obj"
+  "C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/Model/Reclutador.cpp" "C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/Model/Reclutador.cpp.obj"
+  "C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/Model/Sudafricano.cpp" "C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/Model/Sudafricano.cpp.obj"
+  "C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/View/View.cpp" "C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/View/View.cpp.obj"
+  "C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/main.cpp" "C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,3 +1,3 @@
-C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir
-C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/jpces/OneDrive/Documents/JAVERIANA/SEMESTRE 3/POO/PROYECTO2/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/src.dir
+C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ecoll/OneDrive/Escritorio/Recruitment_JPC-EC-DG/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
