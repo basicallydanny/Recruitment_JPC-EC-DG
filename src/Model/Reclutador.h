@@ -16,7 +16,6 @@
 
 class Reclutador {
 private:
-    Candidato candidato;
     map<int, Candidato*> candidatos;
     map<int, Candidato*> entrevistasAgendadas;
     vector<Nacionalidad*> nacionalidades;

@@ -13,6 +13,7 @@ using std::string;
 class View{
 private:
     Reclutador reclutador;
+    void elegirNacion();
 public:
     View();
     void mostrarMenu();

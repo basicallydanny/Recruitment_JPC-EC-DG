@@ -57,9 +57,6 @@ void Reclutador::aprobarCandidato(int pasaporte){
  }
 
 
-
-
-
 void Reclutador::agendarEntrevistas(int pasaporte) {
     int hora, i;
     cout << "Digite la hora de la entrevista (No antes de las 10 a.m, en hora militar): ";
@@ -96,6 +93,7 @@ void Reclutador::generarCarta(int pasaporte) {
                     write << "Es de nuestro agrado hacer de su conocimiento que ha sido ACEPTADO " ;
             }
 
+
             write << "\n\nVALORES DE LA COMPAÑÍA:";
             write << "\n\nTransparencia y responsabilidad:\n";
             write << "\nEn la compañía, es de suma importancia la responsabilidad en el trabajo,"
@@ -119,4 +117,15 @@ void Reclutador::generarCarta(int pasaporte) {
             cout << "La carta ha sido generada con exito.";
             }
         }
+}
+
+void Reclutador::consultarConocimientos(int idNacion) {
+    int posNacion;
+    if (idNacion > nacionalidades.size()) {
+        throw std::domain_error("Esa nacionalidad no esta disponible en nuestra base de datos");
+    }
+    posNacion = idNacion - 1;
+    Nacionalidad *pNacionEscogida = nacionalidades.at(idNacion - 1);
+    pNacionEscogida->consultarConocimientos();
+
 }

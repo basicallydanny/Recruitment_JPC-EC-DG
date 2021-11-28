@@ -3,6 +3,22 @@
 View::View(){
 }
 
+void View::elegirNacion(){
+    try {
+        int idNacion;
+        cout << "Elija la nacion: " << endl;
+        cout << "1. Colmbiano" << endl;
+        cout << "2. Coreano" << endl;
+        cout << "3. Frances" << endl;
+        cout << "4. Sudafricano" << endl;
+        cout << "Opcion: ";
+        cin >> idNacion;
+        reclutador.consultarConocimientos(idNacion);
+    }catch (std::domain_error ex){
+        cout << ex.what();
+    }
+}
+
 void View::mostrarMenu(){
     int opcion, pasaporte;
     do{
