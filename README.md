@@ -26,22 +26,22 @@ Agregar características de los candidatos según su nacionalidad:
 8.	Tradiciones de siesta. Por ejemplo en algunos países la siesta se hace después del medio día. *preguntar a la profe sobre si toca poner sí/no hace siesta, o la hora específica de la siesta de cada uno. 
 Se pueden agregar más si es necesario.
 
-- [ ] **R2**:
+- [x] **R2**:
 Crear los candidatos en el sistema:
 El reclutador puede crear el perfil de los posibles candidatos. Todo candidato tiene un nombre, correo, URL de LinkedIn, URL de GitHub, y número de pasaporte. El candidato hereda la información cultural dependiendo de su nacionalidad. SE USA EL FACTORY PATTERN.
 
-- [ ] **R3**:
+- [x] **R3**:
 Agendar entrevistas:
 Se necesita una identificación para crear una entrevista a cada candidato. Las entrevistas empiezan desde las 10 am. Cada entrevista dura 60 minutos por persona y hay un máximo de 3 entrevistas por día. Si el candidato no existe el sistema pide que se cree el candidato en el sistema.
 
-- [ ] **R4**:
+- [] **R4**:
 Generar guía de entrevista:
 Para candidato que tenga agendada una entrevista se crea una guía con la siguiente información:
 - Nombre del candidato y fecha de la entrevista y nacionalidad.
 - Información sobre los días festivos nacionales según la nacionalidad del candidato. Esta información ayudará al entrevistador a hacer preguntas para romper el hielo en las entrevistas. 
 - Comportamiento intercultural esperado. Cadena que explica las características de conocimiento específicas de la nacionalidad del candidato. [Considerando las categorías descritas en RQ1]. Debe diseñar el software teniendo en cuenta el polimorfismo para cumplir con esta funcionalidad.
 
-- [ ] **R5**:
+- [x] **R5**:
 Generar carta de bienvenida para los candidatos que pasaron la prueba. Esta carta debe informar a los nuevos empleados de los conocimientos culturales que conforman la cultura colombiana (teniendo en cuenta las mismas categorías descritas en R1) y los valores de la empresa.
 
 
