@@ -47,17 +47,18 @@ void Reclutador::crearCandidato() {
     this->candidatos.insert({pasaporte, x});
 }
 
-/*
- * TO-D0:
-void Reclutador::aprobarCandidato
 
-     if (validaAprobado == 1){
-        aprobado = true;
-    }else{
-        aprobado = false;
+void Reclutador::aprobarCandidato(int pasaporte){
+    for (int i = 1; i < candidatos.size() + 1; i++) {
+        if (this->candidatos[i]->getPasaporte() == pasaporte) {
+            candidatos[i]->aprobado = true;
+        }
     }
+ }
 
- */
+
+
+
 
 void Reclutador::agendarEntrevistas(int pasaporte) {
     int hora, i;

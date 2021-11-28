@@ -16,11 +16,13 @@
 
 class Reclutador {
 private:
+    Candidato candidato;
     map<int, Candidato*> candidatos;
     map<int, Candidato*> entrevistasAgendadas;
     vector<Nacionalidad*> nacionalidades;
 public:
     void crearCandidato();
+    void aprobarCandidato(int pasaporte);
     void agendarEntrevistas(int pasaporte);
     void generarGuia(int pasaporte);
     void generarCarta(int pasaporte);

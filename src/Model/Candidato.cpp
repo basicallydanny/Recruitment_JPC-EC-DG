@@ -8,6 +8,7 @@ Candidato::Candidato(string nombre, string correo, string linkedIn, string githu
     this->linkedIn = linkedIn;
     this->pasaporte = pasaporte;
     this->genero = genero;
+    this->aprobado = aprobado;
 }
 
 string Candidato::getNombre(){
