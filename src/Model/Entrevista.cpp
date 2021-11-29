@@ -21,7 +21,7 @@ void Entrevista::generarGuia(int pasaporte){
             ofstream write(guia.c_str());
 
             write << "            GUÍA DE ENTREVISTA        " << "\n\n";
-            write << "Esta guia de entrevista esta creada para el candidato: " << nombreMayus(candidato.getNombre())
+            write << "Esta guia de entrevista esta creada para el candidato: " << nombreMayus(candidato[i]->getNombre())
                   << "\n";
             write << "Para la fecha " << /*Inserte la fecha*/ << "\n\n";
 

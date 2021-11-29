@@ -1,6 +1,7 @@
 #include "Frances.h"
 
-void consultarConocimientos(){
+
+void Frances::consultarConocimientos(){
     cout << nombrePais << endl;
     cout << "Su cultura es " << tipoCultura << "\n"
          << contactoVisual << "\n"
@@ -15,4 +16,8 @@ void consultarConocimientos(){
         write << "Su cultura no tiene siestas." << "\n";
     }
     cout << "Algunas festividades son: " << festividades << "\n";
+}
+
+Frances::~Frances() {
+
 }
