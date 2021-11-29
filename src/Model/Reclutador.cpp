@@ -107,5 +107,5 @@ void Reclutador::generarGuia(int pasaporte) {
 }
 
 void Reclutador::crearCandidato() {
-
+    fabrica.crearCandidato();
 }

@@ -15,6 +15,7 @@ class Reclutador {
 private:
     map<int, Candidato*> candidatos;
     vector<Nacionalidad*> nacionalidades;
+    PatronFactory fabrica;
 public:
     void crearCandidato();
     void aprobarCandidato(int pasaporte);
