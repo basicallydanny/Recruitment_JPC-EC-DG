@@ -1,5 +1,5 @@
 #include "Colombiano.h"
-
+///Funcion que si se selecciona la nacionalidad colombiana, muestra en pantalla sus caracteriscticas culturales
 void Colombiano::consultarConocimientos(){
     cout << nombrePais << endl;
     cout << "Su cultura es " << tipoCultura << "\n"

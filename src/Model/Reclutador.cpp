@@ -1,5 +1,7 @@
 #include "Reclutador.h"
-
+/// Funcion que confirma si el candidato existe en el sistema
+/// \param pasaporte es la variable con la que se va a buscar el candidato
+/// \return retorna true o false dependiendo si encuentra el candidato o no
 bool Reclutador::verExisteCandidato(int pasaporte) {
     for(map<int, Candidato*>::iterator it = candidatos.begin(); it != candidatos.end(); it++){
         if(it->first == pasaporte){
@@ -9,7 +11,8 @@ bool Reclutador::verExisteCandidato(int pasaporte) {
     return false;
 }
 
-
+/// Funcion que cambia el estado de aprobado a true para el candidato seleccionado, para indicar que fue aceptado en la empresa
+/// \param pasaporte es la variable con la que se va a buscar el candidato
 void Reclutador::aprobarCandidato(int pasaporte){
     if (verExisteCandidato(pasaporte)) {
         throw std::domain_error("El candidato con este pasaporte no existe.\n");
@@ -25,7 +28,8 @@ void Reclutador::aprobarCandidato(int pasaporte){
     }
 }
 
-
+/// Funcion que agenda las entrevistas para cada candidato al que se le indique
+/// \param pasaporte es la variable con la que se va a buscar el candidato
 void Reclutador::agendarEntrevistas(int pasaporte) {
     int hora, i;
     if (!verExisteCandidato(pasaporte)) {
@@ -39,7 +43,8 @@ void Reclutador::agendarEntrevistas(int pasaporte) {
         }
     }
 }
-
+/// Funcion que genera la carta de bienvenida para el candidato seleccionado, pero primero confirma que el candidato tenga aprobado en true
+/// \param pasaporte
 void Reclutador::generarCarta(int pasaporte) {
 
     if (verExisteCandidato(pasaporte) == false ) {
@@ -91,6 +96,8 @@ void Reclutador::generarCarta(int pasaporte) {
     }
 }
 
+/// Funcion que segun la nacionalidad seleccionada, muestra en pantalla las caracteristicas culturales de dicha nacion
+/// \param idNacion variable que se utiliza para seleccionar cada nacionalidad que se va a imprimir
 void Reclutador::consultarConocimientos(int idNacion) {
     if (idNacion > fabrica.retornarVector().size()) {
         throw std::domain_error("Esa nacionalidad no esta disponible en nuestra base de datos");

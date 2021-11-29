@@ -1,5 +1,5 @@
 #include "PatronFactory.h"
-
+///Constructor de PatronFactory
 PatronFactory::PatronFactory() {
     Colombiano *colombiano = new Colombiano();
     nacionalidades.push_back(colombiano);
@@ -10,7 +10,9 @@ PatronFactory::PatronFactory() {
     Sudafricano *sudafricano = new Sudafricano();
     nacionalidades.push_back(sudafricano);
 }
-
+/// Funcion que crea los candidatos en el sistema pidiendo todos sus datos y agregandolos al mapa candidatos
+/// \param pasaporte variable que es el pasaporte que se le agrega al candidato, esta variable se pone desde antes de llamar a esta funcion, por lo que se pasa como parametro
+/// \return retorna el candidato creado
 Candidato* PatronFactory::crearCandidato(int pasaporte){
     string nombre, correo, linkedIn, github;
     int idNacion;
@@ -44,14 +46,14 @@ Candidato* PatronFactory::crearCandidato(int pasaporte){
     Candidato* x = new Candidato(nombre, correo, linkedIn, github, pasaporte, genero, aprobado, agendado, nacionalidades[idNacion - 1]);
     return x;
 }
-
+///Destructor
 PatronFactory::~PatronFactory() {
     delete(nacionalidades[0]);
     delete(nacionalidades[1]);
     delete(nacionalidades[2]);
     delete(nacionalidades[3]);
 }
-
+///Funcion que retorna el vector de los paises disponibles
 vector<Nacionalidad *> PatronFactory::retornarVector() {
     return nacionalidades;
 }

@@ -2,7 +2,7 @@
 
 Candidato::Candidato() {
 }
-
+///Constructor de candidato
 Candidato::Candidato(string nombre, string correo, string linkedIn, string github, int pasaporte, bool genero, bool aprobado, bool agendado, Nacionalidad *nacionalidad) {
     this->nombre = nombre;
     this->correo = correo;
@@ -13,7 +13,7 @@ Candidato::Candidato(string nombre, string correo, string linkedIn, string githu
     this->agendado = agendado;
     this->nacionalidad = nacionalidad;
 }
-
+///gets/sets
 string Candidato::getNombre(){
     return this->nombre;
 }

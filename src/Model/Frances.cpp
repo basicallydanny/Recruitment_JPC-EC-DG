@@ -1,5 +1,5 @@
 #include "Frances.h"
-
+///Funcion que si se selecciona la nacionalidad francesa, muestra en pantalla sus caracteriscticas culturales
 void Frances::consultarConocimientos(){
     cout << nombrePais << endl;
     cout << "Su cultura es " << tipoCultura << "\n"
