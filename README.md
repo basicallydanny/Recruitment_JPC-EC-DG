@@ -34,7 +34,7 @@ El reclutador puede crear el perfil de los posibles candidatos. Todo candidato t
 Agendar entrevistas:
 Se necesita una identificación para crear una entrevista a cada candidato. Las entrevistas empiezan desde las 10 am. Cada entrevista dura 60 minutos por persona y hay un máximo de 3 entrevistas por día. Si el candidato no existe el sistema pide que se cree el candidato en el sistema.
 
-- [] **R4**:
+- [x] **R4**:
 Generar guía de entrevista:
 Para candidato que tenga agendada una entrevista se crea una guía con la siguiente información:
 - Nombre del candidato y fecha de la entrevista y nacionalidad.
@@ -54,4 +54,10 @@ Generar carta de bienvenida para los candidatos que pasaron la prueba. Esta cart
 
 ## Diagrama UML:
 [ENLACE](https://drive.google.com/file/d/1-YjouPRGkLYMIXFjP6IUAnFCsMAkoZb7/view?usp=sharing)
+
+## Elementos Implementados
+- 4 Nacionalidades: Colombiano, Coreano, Sudafricano, Frances
+- La Base Reclutador puede 1) Crear Candidato 2) Generar Guía 3) Consultar Conocimientos generales de cada nacionalidad en el sistema 4)
+- Mensajes personalizados de impresión para cada guía según las características de candidato
+- Manejo de Excepciones para errores comunes como repetir el ID de un candidato, ingresar un ID no existente o enviar una carta de bienvenida a alguien no aprobado.
 
