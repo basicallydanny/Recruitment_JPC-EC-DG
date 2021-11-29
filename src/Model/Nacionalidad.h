@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <string>
+#include <sstream>
 
 using namespace std;
 using std::string;
@@ -23,6 +24,8 @@ protected:
 public:
     virtual ~Nacionalidad() {};
     virtual void consultarConocimientos() = 0;
+    virtual string consultarConocimientosString() = 0;
+    virtual string printNombre() = 0;
 };
 
 #endif //RECRUITMENT_JPC_EC_DG_NACIONALIDAD_H

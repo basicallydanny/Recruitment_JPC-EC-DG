@@ -51,6 +51,8 @@ void Reclutador::generarCarta(int pasaporte) {
         throw std::domain_error("El candidato con este pasaporte no existe.\n");
     }
 
+    Colombiano colombiaTemp;
+
     for (int i = 1; i < candidatos.size() + 1; i++) {
         if (this->candidatos[i]->getPasaporte() == pasaporte) {
 
@@ -88,6 +90,9 @@ void Reclutador::generarCarta(int pasaporte) {
                   << "género, raza, religión, cultura, orientación sexual, etc."
                   << "La compañía siempre velará por que todos sus empleados se sientan cómodos y a gusto en su trabajo.";
 
+            write << "Algunas cosas que debe saber de colombia son:";
+            write << colombiaTemp.consultarConocimientosString();
+
             write << "\n\n¡LO ESPERAMOS CON MUCHO ENTUSIASMO!";
 
             write.close();
@@ -107,8 +112,78 @@ void Reclutador::consultarConocimientos(int idNacion) {
 
 }
 
-void Reclutador::generarGuia(int pasaporte) {
+/// Funcion que convierte los caracteres del nombre de Candidato en letras Mayus
+/// \param name
+string Reclutador::nombreMayus( string name ){
+    int n = name.length();
+    for(int i = 0 ; i < n ; i++){
+        if(name[i]  >= 'a' && name[i]<='z' ){
+            char a = name[i] - 32 ;
+        }
+    }
+    return name;
+}
 
+/// Funcion que permite convertir el pasaporte de candidato en un string
+/// \param pasaporte
+string Reclutador::intAString(int codigo){
+    auto texto = std::to_string(codigo);
+    return texto;
+}
+
+/// Funcion que genera la guia del entrevistador segunel candidato seleccionado.
+/// \param pasaporte
+void Reclutador::generarGuia(int pasaporte) {
+    if (!verExisteCandidato(pasaporte)) {
+        throw std::domain_error("El candidato no existe, crealo en el sistema\n");
+    }
+
+    int indexNacional;
+    Candidato *candidatoTemp;
+
+    std::string guia = "GuíaDeEntrevista_" + (intAString(pasaporte)) + ".txt";
+
+    auto iter = candidatos.begin();
+    while (iter != candidatos.end()) {
+        if ( iter->second->getPasaporte() == pasaporte ){
+            candidatoTemp = iter->second;
+            indexNacional = iter->first;
+            break;
+        }
+    }
+
+    vector <Nacionalidad *> vectorTemp = fabrica.retornarVector();
+
+    for (int i = 1; i < candidatos.size() + 1; i++) {
+        if (this->candidatos[i]->getPasaporte() == pasaporte) {
+
+            ofstream write(guia.c_str());
+
+            write << "            GUÍA DE ENTREVISTA        " << "\n\n";
+            write << "Esta guia de entrevista esta creada para el candidato: "
+                  << nombreMayus(candidatoTemp->getNombre())
+                  << "\n";
+
+            for (auto i = 0; i < vectorTemp.size(); i++) {
+                if ( indexNacional == i ){
+                    if (candidatoTemp->getGenero() == 0) {
+                        write << "El candidato es de " << vectorTemp[i]->printNombre() << "\n\n";
+                    } else {
+                        write << "La candidata es de " << vectorTemp[i]->printNombre() << "\n\n";
+                    }
+                    write << vectorTemp[i]->consultarConocimientosString();
+                }
+            }
+
+            write << "\n\nREDES SOCIALES\n";
+            write << "Correo: " << candidatoTemp->getCorreo() << "\n";
+            write << "LinkedIn: " << candidatoTemp->getLinkedIn() << "\n";
+            write << "Github: " << candidatoTemp->getGithub() << "\n\n";
+
+            write.close();
+            cout << "La guia ha sido generada con exito.";
+        }
+    }
 }
 
 void Reclutador::crearCandidato(int pasaporte) {

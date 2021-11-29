@@ -19,6 +19,8 @@ protected:
 public:
     virtual ~Coreano();
     virtual void consultarConocimientos() override;
+    virtual string printNombre() override;
+    virtual string consultarConocimientosString() override;
 };
 
 

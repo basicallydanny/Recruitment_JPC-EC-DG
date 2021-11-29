@@ -19,6 +19,8 @@ protected:
 public:
     virtual ~Sudafricano();
     virtual void consultarConocimientos() override;
+    virtual string printNombre() override;
+    virtual string consultarConocimientosString() override;
 };
 
 #endif //RECRUITMENT_JPC_EC_DG_SUDAFRICANO_H

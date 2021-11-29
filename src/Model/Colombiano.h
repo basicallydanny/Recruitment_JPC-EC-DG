@@ -22,6 +22,8 @@ protected:
 public:
     virtual ~Colombiano();
     virtual void consultarConocimientos() override;
+    virtual string printNombre() override;
+    virtual string consultarConocimientosString() override;
 };
 
 

@@ -13,6 +13,7 @@
 
 using std::map;
 using std::vector;
+using std::string;
 
 class Reclutador {
 private:
@@ -28,6 +29,9 @@ public:
     void generarCarta(int pasaporte);
     void consultarConocimientos(int idNacion);
     bool verExisteCandidato(int pasaporte);
+    string intAString(int codigo);
+    string nombreMayus( string name );
+    void generarGuia(int pasaporte);
 };
 
 
