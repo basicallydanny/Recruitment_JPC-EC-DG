@@ -185,13 +185,14 @@ void Reclutador::generarGuia(int pasaporte) {
         }
     }
 }
-
+/// Funcion que llama desde la clase del patron factory a crearCandidato, y lo agrega al mapa de candidatos
+/// \param pasaporte es la variable del pasaporte del candidato, que se pide desde antes y se manda como parametro
 void Reclutador::crearCandidato(int pasaporte) {
     Candidato* candiTemp;
     candiTemp = fabrica.crearCandidato(pasaporte);
     candidatos.insert({pasaporte, candiTemp});
 }
-
+///Destructor
 Reclutador::~Reclutador() {
     for(map<int, Candidato*>::iterator it = candidatos.begin(); it != candidatos.end(); it++){
         Candidato * CandidatoTemp = candidatos[it->first];
