@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/PatronFactory.cpp.obj"
   "CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Reclutador.cpp.obj"
   "CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Sudafricano.cpp.obj"
+  "CMakeFiles/Recruitment_JPC_EC_DG.dir/Test/ReclutadorTest.cpp.obj"
   "CMakeFiles/Recruitment_JPC_EC_DG.dir/View/View.cpp.obj"
   "CMakeFiles/Recruitment_JPC_EC_DG.dir/main.cpp.obj"
   "Recruitment_JPC_EC_DG.exe"

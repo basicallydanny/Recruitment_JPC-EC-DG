@@ -320,6 +320,30 @@ Model/Sudafricano.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Sudafricano.cpp.s
 .PHONY : Model/Sudafricano.cpp.s
 
+Test/ReclutadorTest.obj: Test/ReclutadorTest.cpp.obj
+.PHONY : Test/ReclutadorTest.obj
+
+# target to build an object file
+Test/ReclutadorTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Test/ReclutadorTest.cpp.obj
+.PHONY : Test/ReclutadorTest.cpp.obj
+
+Test/ReclutadorTest.i: Test/ReclutadorTest.cpp.i
+.PHONY : Test/ReclutadorTest.i
+
+# target to preprocess a source file
+Test/ReclutadorTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Test/ReclutadorTest.cpp.i
+.PHONY : Test/ReclutadorTest.cpp.i
+
+Test/ReclutadorTest.s: Test/ReclutadorTest.cpp.s
+.PHONY : Test/ReclutadorTest.s
+
+# target to generate assembly for a file
+Test/ReclutadorTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Test/ReclutadorTest.cpp.s
+.PHONY : Test/ReclutadorTest.cpp.s
+
 View/View.obj: View/View.cpp.obj
 .PHONY : View/View.obj
 
@@ -401,6 +425,9 @@ help:
 	@echo ... Model/Sudafricano.obj
 	@echo ... Model/Sudafricano.i
 	@echo ... Model/Sudafricano.s
+	@echo ... Test/ReclutadorTest.obj
+	@echo ... Test/ReclutadorTest.i
+	@echo ... Test/ReclutadorTest.s
 	@echo ... View/View.obj
 	@echo ... View/View.i
 	@echo ... View/View.s
