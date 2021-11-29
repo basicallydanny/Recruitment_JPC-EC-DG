@@ -1,5 +1,5 @@
-#ifndef CANDIDATO_H
-#define CANDIDATO_H
+#ifndef RECRUITMENT_JPC_EC_DG_CANDIDATO_H
+#define RECRUITMENT_JPC_EC_DG_CANDIDATO_H
 
 #include <iostream>
 #include <string>
@@ -18,13 +18,11 @@ protected:
     bool genero;
     bool aprobado;
     bool agendado;
-    Nacionalidad nacionalidad;
+    Nacionalidad *nacionalidad;
 
 public:
     Candidato();
-    Candidato(string nombre, string correo, string linkedIn, string github, int pasaporte, bool genero, bool aprobado, bool agendado, Nacionalidad nacionalidad);
-    Nacionalidad getNacionalidad();
-    void setNacionalidad( Nacionalidad nacionalidad );
+    Candidato(string nombre, string correo, string linkedIn, string github, int pasaporte, bool genero, bool aprobado, bool agendado, Nacionalidad *nacionalidad);
     string getNombre();
     string getCorreo();
     string getLinkedIn();
@@ -43,6 +41,5 @@ public:
     void setAprobado(bool aprobado);
 };
 
-#endif //CANDIDATO_H
 
-
+#endif //RECRUITMENT_JPC_EC_DG_CANDIDATO_H

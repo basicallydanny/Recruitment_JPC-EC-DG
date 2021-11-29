@@ -1,5 +1,5 @@
-#ifndef PRUEBA_COREANO_H
-#define PRUEBA_COREANO_H
+#ifndef RECRUITMENT_JPC_EC_DG_COREANO_H
+#define RECRUITMENT_JPC_EC_DG_COREANO_H
 
 #include "Nacionalidad.h"
 
@@ -22,4 +22,5 @@ public:
 };
 
 
-#endif //PRUEBA_COREANO_H
+
+#endif //RECRUITMENT_JPC_EC_DG_COREANO_H

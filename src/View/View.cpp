@@ -7,7 +7,7 @@ void View::elegirNacion(){
     try {
         int idNacion;
         cout << "Elija la nacion: " << endl;
-        cout << "1. Colmbiano" << endl;
+        cout << "1. Colombiano" << endl;
         cout << "2. Coreano" << endl;
         cout << "3. Frances" << endl;
         cout << "4. Sudafricano" << endl;
@@ -26,7 +26,7 @@ void View::mostrarMenu(){
         cout << "1. Consultar los conocimientos culturales\n";
         cout << "2. Crear candidatos\n";
         cout << "3. Programar entrevistas\n";
-        cout << "4. Generar guía de entrevistas\n";
+        cout << "4. Generar guia de entrevistas\n";
         cout << "5. Aprobar Candidato\n";
         cout << "6. Generar la carta de bienvenida\n";
         cout << "0. Salir \n";
@@ -37,7 +37,9 @@ void View::mostrarMenu(){
                 elegirNacion();
                 break;
             case 2:
-                reclutador.crearCandidato();
+                cout << "Digite el pasaporte del candidato: ";
+                cin >> pasaporte;
+                reclutador.crearCandidato(pasaporte);
                 break;
             case 3:
                 cout << "Ingrese el pasaporte del candidato: " << endl;

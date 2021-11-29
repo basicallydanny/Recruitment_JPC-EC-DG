@@ -1,6 +1,5 @@
 #include "Frances.h"
 
-
 void Frances::consultarConocimientos(){
     cout << nombrePais << endl;
     cout << "Su cultura es " << tipoCultura << "\n"
@@ -10,10 +9,10 @@ void Frances::consultarConocimientos(){
          << "Su perspectiva frente al respeto es " << respeto << "\n"
          << "Gestionan el tiempo de tal manera que " << gestionTiempo << "\n"
          << "Para hablar " << estiloComunicacion << endl;
-    if (tieneSiesta == True ) {
-        write << "Su cultura tiene siestas." << "\n";
+    if (tieneSiesta) {
+        cout << "Su cultura tiene siestas." << "\n";
     } else {
-        write << "Su cultura no tiene siestas." << "\n";
+        cout << "Su cultura no tiene siestas." << "\n";
     }
     cout << "Algunas festividades son: " << festividades << "\n";
 }

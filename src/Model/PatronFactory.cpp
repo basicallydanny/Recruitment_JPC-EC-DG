@@ -1,10 +1,20 @@
 #include "PatronFactory.h"
 
-int PatronFactory::crearCandidato(){
+PatronFactory::PatronFactory() {
+    Colombiano *colombiano = new Colombiano();
+    nacionalidades.push_back(colombiano);
+    Coreano *coreano = new Coreano();
+    nacionalidades.push_back(coreano);
+    Frances *frances = new Frances();
+    nacionalidades.push_back(frances);
+    Sudafricano *sudafricano = new Sudafricano();
+    nacionalidades.push_back(sudafricano);
+}
+
+Candidato* PatronFactory::crearCandidato(int pasaporte){
     string nombre, correo, linkedIn, github;
-    int pasaporte, idNacion;
+    int idNacion;
     bool genero, aprobado = false, agendado = false;
-    Nacionalidad nacionalidad;
 
     cout << "Digite el nombre del candidato: ";
     cin >> nombre;
@@ -18,11 +28,8 @@ int PatronFactory::crearCandidato(){
     cout << "Digite el usuario GitHub del candidato: ";
     cin >> github;
 
-    cout << "Digite el pasaporte del candidato: ";
-    cin >> pasaporte;
-
     cout << "Genero del candidato (1 mujer, 0 hombre): ";
-    cin >> validaGenero;
+    cin >> genero;
 
     cout << "Elija la nacion: " << endl;
     cout << "1. Colombiano" << endl;
@@ -34,7 +41,18 @@ int PatronFactory::crearCandidato(){
     if (idNacion > nacionalidades.size()) {
         throw std::domain_error("Esa nacionalidad no esta disponible en nuestra base de datos");
     }
-    Nacionalidad *pNacionEscogida = nacionalidades.at(idNacion - 1);
-    Candidato * x = new Candidato(nombre, correo, linkedIn, github, pasaporte, genero, aprobado, agendado, pNacionEscogida*);
-    this->candidatos.insert({pasaporte, x});
+    Candidato* x = new Candidato(nombre, correo, linkedIn, github, pasaporte, genero, aprobado, agendado, nacionalidades[idNacion - 1]);
+    return x;
 }
+
+PatronFactory::~PatronFactory() {
+    delete(nacionalidades[0]);
+    delete(nacionalidades[1]);
+    delete(nacionalidades[2]);
+    delete(nacionalidades[3]);
+}
+
+vector<Nacionalidad *> PatronFactory::retornarVector() {
+    return nacionalidades;
+}
+

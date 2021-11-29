@@ -1,5 +1,5 @@
-#ifndef PRUEBA_SUDAFRICANO_H
-#define PRUEBA_SUDAFRICANO_H
+#ifndef RECRUITMENT_JPC_EC_DG_SUDAFRICANO_H
+#define RECRUITMENT_JPC_EC_DG_SUDAFRICANO_H
 
 #include "Nacionalidad.h"
 
@@ -21,5 +21,4 @@ public:
     virtual void consultarConocimientos() override;
 };
 
-
-#endif //PRUEBA_SUDAFRICANO_H
+#endif //RECRUITMENT_JPC_EC_DG_SUDAFRICANO_H

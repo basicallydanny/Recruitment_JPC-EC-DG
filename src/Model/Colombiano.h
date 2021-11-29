@@ -1,5 +1,5 @@
-#ifndef PRUEBA_COLOMBIANO_H
-#define PRUEBA_COLOMBIANO_H
+#ifndef RECRUITMENT_JPC_EC_DG_COLOMBIANO_H
+#define RECRUITMENT_JPC_EC_DG_COLOMBIANO_H
 
 #include <iostream>
 #include "Nacionalidad.h"
@@ -24,4 +24,5 @@ public:
     virtual void consultarConocimientos() override;
 };
 
-#endif //PRUEBA_COLOMBIANO_H
+
+#endif //RECRUITMENT_JPC_EC_DG_COLOMBIANO_H

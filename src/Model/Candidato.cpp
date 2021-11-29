@@ -1,8 +1,9 @@
 #include "Candidato.h"
+
 Candidato::Candidato() {
 }
 
-Candidato::Candidato(string nombre, string correo, string linkedIn, string github, int pasaporte, bool genero, bool aprobado, bool agendado, Nacionalidad nacionalidad) {
+Candidato::Candidato(string nombre, string correo, string linkedIn, string github, int pasaporte, bool genero, bool aprobado, bool agendado, Nacionalidad *nacionalidad) {
     this->nombre = nombre;
     this->correo = correo;
     this->linkedIn = linkedIn;
@@ -75,12 +76,4 @@ bool Candidato::getAgendado(){
 
 void Candidato::setAgendado(bool agendado) {
     Candidato::agendado = agendado;
-}
-
-void Candidato::setNacionalidad(Nacionalidad nacionalidad) {
-    Candidato::nacionalidad = nacionalidad;
-}
-
-Nacionalidad Candidato::getNacionalidad() {
-    return nacionalidad;
 }

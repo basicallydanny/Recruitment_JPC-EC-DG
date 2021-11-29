@@ -1,5 +1,5 @@
-#ifndef PRUEBA_NACIONALIDAD_H
-#define PRUEBA_NACIONALIDAD_H
+#ifndef RECRUITMENT_JPC_EC_DG_NACIONALIDAD_H
+#define RECRUITMENT_JPC_EC_DG_NACIONALIDAD_H
 
 #include <iostream>
 #include <string>
@@ -24,4 +24,5 @@ public:
     virtual ~Nacionalidad() {};
     virtual void consultarConocimientos() = 0;
 };
-#endif //PRUEBA_NACIONALIDAD_H
+
+#endif //RECRUITMENT_JPC_EC_DG_NACIONALIDAD_H

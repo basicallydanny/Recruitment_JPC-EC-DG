@@ -11,6 +11,14 @@ string Entrevista::nombreMayus( string name ){
     return name;
 }
 
+string Entrevista::intAString(int codigo){
+    std::string text;
+    ostringstream outs;
+    outs << codigo;
+    text = outs.str();
+    return text;
+}
+
 void Entrevista::generarGuia(int pasaporte){
     if (!verExisteCandidato(pasaporte)) {
         throw std::domain_error("El candidato no existe, crealo en el sistema\n");

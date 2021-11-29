@@ -1,5 +1,5 @@
-#ifndef PRUEBA_FRANCES_H
-#define PRUEBA_FRANCES_H
+#ifndef RECRUITMENT_JPC_EC_DG_FRANCES_H
+#define RECRUITMENT_JPC_EC_DG_FRANCES_H
 
 #include "Nacionalidad.h"
 
@@ -22,4 +22,4 @@ public:
 };
 
 
-#endif //PRUEBA_FRANCES_H
+#endif //RECRUITMENT_JPC_EC_DG_FRANCES_H

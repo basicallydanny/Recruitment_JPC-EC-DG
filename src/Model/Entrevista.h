@@ -1,5 +1,5 @@
-#ifndef PRUEBA_ENTREVISTA_H
-#define PRUEBA_ENTREVISTA_H
+#ifndef RECRUITMENT_JPC_EC_DG_ENTREVISTA_H
+#define RECRUITMENT_JPC_EC_DG_ENTREVISTA_H
 
 #include "Candidato.h"
 #include "Reclutador.h"
@@ -14,8 +14,10 @@ class Entrevista{
 private:
     Candidato candidato;
 public:
+    string intAString(int codigo);
     string nombreMayus( string name );
-    void generarGuia( Candidato candidato );
+    void generarGuia(int pasaporte);
 };
 
-#endif //PRUEBA_ENTREVISTA_H
+
+#endif //RECRUITMENT_JPC_EC_DG_ENTREVISTA_H

@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\jpces\OneDrive\Documents\JAVERIANA\SEMESTRE 3\POO\PROYECTO2\Recruitment_JPC-EC-DG\src"
+CMAKE_SOURCE_DIR = C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\jpces\OneDrive\Documents\JAVERIANA\SEMESTRE 3\POO\PROYECTO2\Recruitment_JPC-EC-DG\src\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\jpces\OneDrive\Documents\JAVERIANA\SEMESTRE 3\POO\PROYECTO2\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles" "C:\Users\jpces\OneDrive\Documents\JAVERIANA\SEMESTRE 3\POO\PROYECTO2\Recruitment_JPC-EC-DG\src\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\jpces\OneDrive\Documents\JAVERIANA\SEMESTRE 3\POO\PROYECTO2\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ecoll\OneDrive\Escritorio\Recruitment_JPC-EC-DG\src\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named src
+# Target rules for targets named Recruitment_JPC_EC_DG
 
 # Build rule for target.
-src: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src
-.PHONY : src
+Recruitment_JPC_EC_DG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Recruitment_JPC_EC_DG
+.PHONY : Recruitment_JPC_EC_DG
 
 # fast build rule for target.
-src/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/build
-.PHONY : src/fast
+Recruitment_JPC_EC_DG/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/build
+.PHONY : Recruitment_JPC_EC_DG/fast
 
 Model/Candidato.obj: Model/Candidato.cpp.obj
 .PHONY : Model/Candidato.obj
 
 # target to build an object file
 Model/Candidato.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Candidato.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Candidato.cpp.obj
 .PHONY : Model/Candidato.cpp.obj
 
 Model/Candidato.i: Model/Candidato.cpp.i
@@ -141,7 +141,7 @@ Model/Candidato.i: Model/Candidato.cpp.i
 
 # target to preprocess a source file
 Model/Candidato.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Candidato.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Candidato.cpp.i
 .PHONY : Model/Candidato.cpp.i
 
 Model/Candidato.s: Model/Candidato.cpp.s
@@ -149,7 +149,7 @@ Model/Candidato.s: Model/Candidato.cpp.s
 
 # target to generate assembly for a file
 Model/Candidato.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Candidato.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Candidato.cpp.s
 .PHONY : Model/Candidato.cpp.s
 
 Model/Colombiano.obj: Model/Colombiano.cpp.obj
@@ -157,7 +157,7 @@ Model/Colombiano.obj: Model/Colombiano.cpp.obj
 
 # target to build an object file
 Model/Colombiano.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Colombiano.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Colombiano.cpp.obj
 .PHONY : Model/Colombiano.cpp.obj
 
 Model/Colombiano.i: Model/Colombiano.cpp.i
@@ -165,7 +165,7 @@ Model/Colombiano.i: Model/Colombiano.cpp.i
 
 # target to preprocess a source file
 Model/Colombiano.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Colombiano.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Colombiano.cpp.i
 .PHONY : Model/Colombiano.cpp.i
 
 Model/Colombiano.s: Model/Colombiano.cpp.s
@@ -173,7 +173,7 @@ Model/Colombiano.s: Model/Colombiano.cpp.s
 
 # target to generate assembly for a file
 Model/Colombiano.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Colombiano.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Colombiano.cpp.s
 .PHONY : Model/Colombiano.cpp.s
 
 Model/Coreano.obj: Model/Coreano.cpp.obj
@@ -181,7 +181,7 @@ Model/Coreano.obj: Model/Coreano.cpp.obj
 
 # target to build an object file
 Model/Coreano.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Coreano.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Coreano.cpp.obj
 .PHONY : Model/Coreano.cpp.obj
 
 Model/Coreano.i: Model/Coreano.cpp.i
@@ -189,7 +189,7 @@ Model/Coreano.i: Model/Coreano.cpp.i
 
 # target to preprocess a source file
 Model/Coreano.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Coreano.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Coreano.cpp.i
 .PHONY : Model/Coreano.cpp.i
 
 Model/Coreano.s: Model/Coreano.cpp.s
@@ -197,7 +197,7 @@ Model/Coreano.s: Model/Coreano.cpp.s
 
 # target to generate assembly for a file
 Model/Coreano.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Coreano.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Coreano.cpp.s
 .PHONY : Model/Coreano.cpp.s
 
 Model/Frances.obj: Model/Frances.cpp.obj
@@ -205,7 +205,7 @@ Model/Frances.obj: Model/Frances.cpp.obj
 
 # target to build an object file
 Model/Frances.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Frances.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Frances.cpp.obj
 .PHONY : Model/Frances.cpp.obj
 
 Model/Frances.i: Model/Frances.cpp.i
@@ -213,7 +213,7 @@ Model/Frances.i: Model/Frances.cpp.i
 
 # target to preprocess a source file
 Model/Frances.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Frances.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Frances.cpp.i
 .PHONY : Model/Frances.cpp.i
 
 Model/Frances.s: Model/Frances.cpp.s
@@ -221,7 +221,7 @@ Model/Frances.s: Model/Frances.cpp.s
 
 # target to generate assembly for a file
 Model/Frances.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Frances.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Frances.cpp.s
 .PHONY : Model/Frances.cpp.s
 
 Model/Nacionalidad.obj: Model/Nacionalidad.cpp.obj
@@ -229,7 +229,7 @@ Model/Nacionalidad.obj: Model/Nacionalidad.cpp.obj
 
 # target to build an object file
 Model/Nacionalidad.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Nacionalidad.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Nacionalidad.cpp.obj
 .PHONY : Model/Nacionalidad.cpp.obj
 
 Model/Nacionalidad.i: Model/Nacionalidad.cpp.i
@@ -237,7 +237,7 @@ Model/Nacionalidad.i: Model/Nacionalidad.cpp.i
 
 # target to preprocess a source file
 Model/Nacionalidad.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Nacionalidad.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Nacionalidad.cpp.i
 .PHONY : Model/Nacionalidad.cpp.i
 
 Model/Nacionalidad.s: Model/Nacionalidad.cpp.s
@@ -245,15 +245,39 @@ Model/Nacionalidad.s: Model/Nacionalidad.cpp.s
 
 # target to generate assembly for a file
 Model/Nacionalidad.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Nacionalidad.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Nacionalidad.cpp.s
 .PHONY : Model/Nacionalidad.cpp.s
+
+Model/PatronFactory.obj: Model/PatronFactory.cpp.obj
+.PHONY : Model/PatronFactory.obj
+
+# target to build an object file
+Model/PatronFactory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/PatronFactory.cpp.obj
+.PHONY : Model/PatronFactory.cpp.obj
+
+Model/PatronFactory.i: Model/PatronFactory.cpp.i
+.PHONY : Model/PatronFactory.i
+
+# target to preprocess a source file
+Model/PatronFactory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/PatronFactory.cpp.i
+.PHONY : Model/PatronFactory.cpp.i
+
+Model/PatronFactory.s: Model/PatronFactory.cpp.s
+.PHONY : Model/PatronFactory.s
+
+# target to generate assembly for a file
+Model/PatronFactory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/PatronFactory.cpp.s
+.PHONY : Model/PatronFactory.cpp.s
 
 Model/Reclutador.obj: Model/Reclutador.cpp.obj
 .PHONY : Model/Reclutador.obj
 
 # target to build an object file
 Model/Reclutador.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Reclutador.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Reclutador.cpp.obj
 .PHONY : Model/Reclutador.cpp.obj
 
 Model/Reclutador.i: Model/Reclutador.cpp.i
@@ -261,7 +285,7 @@ Model/Reclutador.i: Model/Reclutador.cpp.i
 
 # target to preprocess a source file
 Model/Reclutador.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Reclutador.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Reclutador.cpp.i
 .PHONY : Model/Reclutador.cpp.i
 
 Model/Reclutador.s: Model/Reclutador.cpp.s
@@ -269,7 +293,7 @@ Model/Reclutador.s: Model/Reclutador.cpp.s
 
 # target to generate assembly for a file
 Model/Reclutador.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Reclutador.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Reclutador.cpp.s
 .PHONY : Model/Reclutador.cpp.s
 
 Model/Sudafricano.obj: Model/Sudafricano.cpp.obj
@@ -277,7 +301,7 @@ Model/Sudafricano.obj: Model/Sudafricano.cpp.obj
 
 # target to build an object file
 Model/Sudafricano.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Sudafricano.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Sudafricano.cpp.obj
 .PHONY : Model/Sudafricano.cpp.obj
 
 Model/Sudafricano.i: Model/Sudafricano.cpp.i
@@ -285,7 +309,7 @@ Model/Sudafricano.i: Model/Sudafricano.cpp.i
 
 # target to preprocess a source file
 Model/Sudafricano.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Sudafricano.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Sudafricano.cpp.i
 .PHONY : Model/Sudafricano.cpp.i
 
 Model/Sudafricano.s: Model/Sudafricano.cpp.s
@@ -293,7 +317,7 @@ Model/Sudafricano.s: Model/Sudafricano.cpp.s
 
 # target to generate assembly for a file
 Model/Sudafricano.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Model/Sudafricano.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/Model/Sudafricano.cpp.s
 .PHONY : Model/Sudafricano.cpp.s
 
 View/View.obj: View/View.cpp.obj
@@ -301,7 +325,7 @@ View/View.obj: View/View.cpp.obj
 
 # target to build an object file
 View/View.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/View/View.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/View/View.cpp.obj
 .PHONY : View/View.cpp.obj
 
 View/View.i: View/View.cpp.i
@@ -309,7 +333,7 @@ View/View.i: View/View.cpp.i
 
 # target to preprocess a source file
 View/View.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/View/View.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/View/View.cpp.i
 .PHONY : View/View.cpp.i
 
 View/View.s: View/View.cpp.s
@@ -317,7 +341,7 @@ View/View.s: View/View.cpp.s
 
 # target to generate assembly for a file
 View/View.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/View/View.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/View/View.cpp.s
 .PHONY : View/View.cpp.s
 
 main.obj: main.cpp.obj
@@ -325,7 +349,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -333,7 +357,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -341,7 +365,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_JPC_EC_DG.dir\build.make CMakeFiles/Recruitment_JPC_EC_DG.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -352,7 +376,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... src
+	@echo ... Recruitment_JPC_EC_DG
 	@echo ... Model/Candidato.obj
 	@echo ... Model/Candidato.i
 	@echo ... Model/Candidato.s
@@ -368,6 +392,9 @@ help:
 	@echo ... Model/Nacionalidad.obj
 	@echo ... Model/Nacionalidad.i
 	@echo ... Model/Nacionalidad.s
+	@echo ... Model/PatronFactory.obj
+	@echo ... Model/PatronFactory.i
+	@echo ... Model/PatronFactory.s
 	@echo ... Model/Reclutador.obj
 	@echo ... Model/Reclutador.i
 	@echo ... Model/Reclutador.s
